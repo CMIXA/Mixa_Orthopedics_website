@@ -1,0 +1,36 @@
+
+.navbar {
+    align-items: center;
+    background-color: rgb(32, 72, 142);
+    color: white;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+}
+
+.navbar-item {
+    padding: 15px;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: end;
+    width: 75%;
+}
+
+.navbar-title-wrapper {
+    width: 400px;
+}
+
+.navbar-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: 5%;
+    /* width: 80%;
+    max-width: 1200px; */
+}
