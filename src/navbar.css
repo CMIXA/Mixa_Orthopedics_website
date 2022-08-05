@@ -12,13 +12,30 @@
     padding: 15px;
 }
 
+.navbar-item a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
 .navbar-items {
     display: flex;
     justify-content: end;
     width: 75%;
 }
 
+.navbar-title {
+    font-size: 12px;
+    letter-spacing: 0.7px;
+}
+
+.navbar-title-image img {
+    width: 37px;
+    margin-right: 10px;
+}
+
 .navbar-title-wrapper {
+    align-items: center;
+    display: flex;
     width: 400px;
 }
 
@@ -26,11 +43,6 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin: 5%;
-    /* width: 80%;
-    max-width: 1200px; */
+    width: 100%;
+    max-width: 1250px;
 }
