@@ -1,12 +1,14 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import './footer.css';
 import Home from "./components/Home";
 import About from "./components/About";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
 import FAQs from "./components/FAQs"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -54,13 +56,14 @@ function App() {
         <Route path="faqs" element={<FAQs />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
-      <div className="footer">
+      {/* <div className="footer">
         <div className='footer-wrapper'>
                 <div className='column-1'></div>
                 <div className='column-2'></div>
                 <div className='column-3'></div>
             </div>
-      </div>
+      </div> */}
+      <Footer />
     </div>
   );
 }

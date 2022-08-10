@@ -1,5 +1,16 @@
-
 .footer {
-    background-color: rgb(29, 29, 164);
+    align-items: center;
+    background-color: rgb(32, 72, 142);
     color: white;
+    display: flex;
+    height: 375px;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1250px;
 }
