@@ -10,10 +10,31 @@ h1 {
 }
 
 nav {
-  background-color: blue;
+  align-items: center;
+  background-color: rgb(32, 72, 142);
+  color: white;
+  display: flex;
+  height: 75px;
+  justify-content: center;
 }
 
 .nav-link {
   color: aliceblue;
   text-decoration: none;
+}
+
+.navbar-title {
+  font-size: 12px;
+  letter-spacing: 0.7px;
+}
+
+.navbar-title-image img {
+  width: 37px;
+  margin-right: 10px;
+}
+
+.navbar-title-wrapper {
+  align-items: center;
+  display: flex;
+  width: 400px;
 }

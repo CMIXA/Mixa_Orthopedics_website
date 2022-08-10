@@ -13,13 +13,25 @@ function App() {
     <div className="App">
       <>
         <nav>
-          <div className="nav-links">
-            <Link className="nav-link" to="/">Home</Link>
-            <Link className="nav-link" to="/ourservices">Our Services</Link>
-            <Link className="nav-link" to="/about">About</Link>
-            <Link className="nav-link" to="/patientforms">Patient Forms</Link>
-            <Link className="nav-link" to="/faqs">FAQs</Link>
-            <Link className="nav-link" to="/contact">Contact</Link>
+          <div className="navbar-wrapper">
+            <div className="navbar-title-wrapper">
+              <div className='navbar-title-image'>
+                <img src='bones.png'></img>
+              </div>
+              <div className='navbar-title'>
+                  <h1>Mixa Orthopedics</h1>
+              </div>
+            </div>
+            <div>
+              <div className="nav-links">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/ourservices">Our Services</Link>
+                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/patientforms">Patient Forms</Link>
+                <Link className="nav-link" to="/faqs">FAQs</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
+              </div>
+            </div>
           </div>
         </nav>
       </>
