@@ -13,13 +13,14 @@ function App() {
     <div className="App">
       <>
         <nav>
-            <h1>Hello</h1>
-            <Link to="/">Home</Link>
-            <Link to="/ourservices">Our Services</Link>
-            <Link to="/about">About</Link>
-            <Link to="/patientforms">Patient Forms</Link>
-            <Link to="/faqs">FAQs</Link>
-            <Link to="/contact">Contact</Link>
+          <div className="nav-links">
+            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/ourservices">Our Services</Link>
+            <Link className="nav-link" to="/about">About</Link>
+            <Link className="nav-link" to="/patientforms">Patient Forms</Link>
+            <Link className="nav-link" to="/faqs">FAQs</Link>
+            <Link className="nav-link" to="/contact">Contact</Link>
+          </div>
         </nav>
       </>
       <Routes>
@@ -30,7 +31,13 @@ function App() {
         <Route path="faqs" element={<FAQs />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
-
+      <div className="footer">
+        <div className='footer-wrapper'>
+                <div className='column-1'></div>
+                <div className='column-2'></div>
+                <div className='column-3'></div>
+            </div>
+      </div>
     </div>
   );
 }
