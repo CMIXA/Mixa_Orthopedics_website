@@ -23,13 +23,26 @@ function App() {
               </div>
             </div>
             <div>
-              <div className="nav-links">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/ourservices">Our Services</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/patientforms">Patient Forms</Link>
-                <Link className="nav-link" to="/faqs">FAQs</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+              <div className="navbar-items">
+                <div className="navbar-item">
+                  <Link className="nav-link" to="/">Home</Link>
+                </div>
+                <div className="navbar-item">
+                  <Link className="nav-link" to="/ourservices">Our Services</Link>
+                </div>
+                <div className="navbar-item">
+                  <Link className="nav-link" to="/about">About</Link>
+                </div>
+                <div className="navbar-item">
+                  <Link className="nav-link" to="/patientforms">Patient Forms</Link>
+                </div>
+                <div className="navbar-item">
+                  <Link className="nav-link" to="/
+                  faqs">FAQs</Link>
+                </div>
+                <div className="navbar-item">
+                  <Link className="nav-link" to="/contact">Contact</Link>
+                </div>
               </div>
             </div>
           </div>

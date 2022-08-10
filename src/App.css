@@ -23,6 +23,16 @@ nav {
   text-decoration: none;
 }
 
+.navbar-item {
+  padding: 15px;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: end;
+  width: 75%;
+}
+
 .navbar-title {
   font-size: 12px;
   letter-spacing: 0.7px;
@@ -37,4 +47,12 @@ nav {
   align-items: center;
   display: flex;
   width: 400px;
+}
+
+.navbar-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1250px;
 }
