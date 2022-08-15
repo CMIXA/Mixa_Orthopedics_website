@@ -2,6 +2,7 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import './footer.css';
+import "./PatientForms.css"
 import Home from "./components/Home";
 import About from "./components/About";
 import OurServices from "./components/OurServices";
@@ -23,6 +24,9 @@ function App() {
               <div className='navbar-title'>
                   <h1>Mixa Orthopedics</h1>
               </div>
+            </div>
+            <div className="menu-icon">
+              <img src=""></img>
             </div>
             <div className="navbar-items">
               <div className="navbar-item">

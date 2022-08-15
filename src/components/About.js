@@ -3,8 +3,14 @@ import React from 'react'
 
 const About = () => {
     return (
-        <main>
-            <h2>About</h2>
+        <main className='about-container'>
+            <div className='about-title-container'>
+                <h1>About us</h1>
+            </div>
+            <div className='about-wrapper'>
+                <div className='about-content-container'>
+                </div>
+            </div>
         </main>
     )
 }
