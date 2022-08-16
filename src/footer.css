@@ -1,9 +1,29 @@
-.footer {
+
+.column-1, .column-2, .column-3 {
+    width: 300px;
+}
+
+.copyright {
     align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+
+.copyright p {
+    font-size: 12px;
+}
+
+.footer {
     background-color: rgb(32, 72, 142);
+    color: rgb(255, 255, 255);
+}
+
+.footer-content {
+    align-items: center;
     color: white;
     display: flex;
-    height: 375px;
+    height: 350px;
     justify-content: center;
 }
 

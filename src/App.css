@@ -9,6 +9,10 @@ h1 {
   font-weight: 600;
 }
 
+.menu-icon img {
+  display: none;
+}
+
 nav {
   align-items: center;
   background-color: rgb(42, 81, 149);
@@ -62,4 +66,17 @@ nav {
   .navbar-items{
     display: none;
   }
+
+  /* .navbar-items.active {
+    display: flex;
+  } */
+
+  .menu-icon img {
+    display: block;
+    width: 35px;
+  }
+
+  /* .menu-icon img:hover {
+    cursor: pointer;
+  } */
 }

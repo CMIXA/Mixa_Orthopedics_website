@@ -15,7 +15,16 @@ import FAQs from "./components/FAQs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
 function App() {
+
+  // const menuIcon = document.getElementsByClassName('menu-icon')[0]
+  // const navbarItems = document.getElementsByClassName('navbar-items')[0]
+
+  // menuIcon.addEventListener('click', () => {
+  //   navbarItems.classList.toggle('active')
+  // }) 
+
   return (
     <div className="App">
       <>
@@ -23,14 +32,11 @@ function App() {
           <div className="navbar-wrapper">
             <div className="navbar-title-wrapper">
               <div className='navbar-title-image'>
-                <img src='bones.png'></img>
+                <img src='bones.png' alt="bones"></img>
               </div>
               <div className='navbar-title'>
                   <h1>Mixa Orthopedics</h1>
               </div>
-            </div>
-            <div className="menu-icon">
-              <img src=""></img>
             </div>
             <div className="navbar-items">
               <div className="navbar-item">
@@ -52,6 +58,9 @@ function App() {
                 <Link className="nav-link" to="/contact">Contact</Link>
               </div>
             </div>
+            <div className="menu-icon">
+              <img src="more.png" alt="menu"></img>
+            </div>
           </div>
         </nav>
       </>
@@ -67,7 +76,6 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
 

@@ -26,3 +26,30 @@
     display: flex;
     justify-content: center;
 }
+
+.specialties-container {
+    margin: 50px 40px 70px 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.specialties-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 35px;
+}
+
+.list-1, .list-2{
+    margin: 0 45px;
+}
+
+.specialties-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.specialties-title p {
+    font-size: 14px;
+    margin-top: 5px;
+}
