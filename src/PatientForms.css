@@ -1,25 +1,44 @@
 
+.block {
+    background-color: rgb(47, 42, 52);
+    height: 300px;
+    margin-bottom: 10px;
+    width: 300px;
+}
 
 .patientforms-content-container {
-    align-items: center;
+    /* align-items: center; */
     display: flex;
-    justify-content: center;
-    margin: 0 40px;
-    max-width: 1250px;
+    justify-content: space-between;
+    margin: 80px 40px;
+    max-width: 900px;
     width: 100%;
+}
+
+.patientforms-content-container h2 {
+    margin-bottom: 30px;
+}
+
+.patientforms-content-container p {
+    margin-bottom: 15px;
+}
+
+.patientforms-doc-container p {
+    text-align: center;
+    width: 300px;
 }
 
 .patientforms-text-container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: column;
+    width: 400px;
 }
 
 .patientforms-title-container {
     align-items: center;
     background-color: azure;
     display: flex;
-    height: 80px;
+    height: 100px;
     justify-content: center;
 }
 

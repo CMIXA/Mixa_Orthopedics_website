@@ -2,14 +2,18 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import './footer.css';
-import "./PatientForms.css"
+import "./PatientForms.css";
+import "./Contact.css";
+import "./About.css";
+import "./OurServices.css";
+import "./FAQs.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
-import FAQs from "./components/FAQs"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import FAQs from "./components/FAQs";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -42,8 +46,7 @@ function App() {
                 <Link className="nav-link" to="/patientforms">Patient Forms</Link>
               </div>
               <div className="navbar-item">
-                <Link className="nav-link" to="/
-                faqs">FAQs</Link>
+                <Link className="nav-link" to="/faqs">FAQs</Link>
               </div>
               <div className="navbar-item">
                 <Link className="nav-link" to="/contact">Contact</Link>
@@ -60,13 +63,6 @@ function App() {
         <Route path="faqs" element={<FAQs />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
-      {/* <div className="footer">
-        <div className='footer-wrapper'>
-                <div className='column-1'></div>
-                <div className='column-2'></div>
-                <div className='column-3'></div>
-            </div>
-      </div> */}
       <Footer />
     </div>
   );

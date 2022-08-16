@@ -1,0 +1,28 @@
+
+.ourservices-content-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    max-width: 1250px;
+    width: 100%;
+}
+
+.ourservices-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ourservices-title-container {
+    align-items: center;
+    background-color: azure;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.ourservices-wrapper {
+    display: flex;
+    justify-content: center;
+}
