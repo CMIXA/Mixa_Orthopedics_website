@@ -82,16 +82,15 @@
 }
 
 .footer-wrapper {
-    /* align-items: center; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 100px; */
     width: 100%;
     max-width: 1250px;
 }
 
 .footer-wrapper h2 {
+    font-size: 20px;
     margin-bottom: 10px;
 }
 

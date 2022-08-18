@@ -16,7 +16,9 @@ const PatientForms = () => {
                         <p>If you have any questions regarding the patient forms, please call us at 727-321-9644</p>
                     </div>
                     <div className='patientforms-doc-container'>
-                        <div className='block'></div>
+                        <div className='block'>
+                            <img src='patientforms.png'></img>
+                        </div>
                         <div>
                             <p>Click the image above to download the Patient Registration Form</p>
                         </div>
