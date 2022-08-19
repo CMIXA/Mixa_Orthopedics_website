@@ -16,7 +16,7 @@
 .about-title-container {
     align-items: center;
     background-color: rgb(37, 37, 37);
-    background-image: url(components/about.png);
+    background-image: url(components/images/about.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
