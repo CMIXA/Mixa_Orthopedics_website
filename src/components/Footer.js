@@ -57,7 +57,7 @@ function Footer() {
                                     <p>9am - 5pm</p>
                                     <p>9am - 5pm</p>
                                     <p>9am - 5pm</p>
-                                    <p></p>
+                                    <p>Closed</p>
                                 </div>
                             </div>
                         </div>
