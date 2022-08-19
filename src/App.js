@@ -1,19 +1,19 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import "./App.css";
-import './footer.css';
-import "./PatientForms.css";
-import "./Contact.css";
 import "./About.css";
-import "./OurServices.css";
+import "./App.css";
+import "./Contact.css";
 import "./FAQs.css";
-import Home from "./components/Home";
+import './Footer.css';
+import "./OurServices.css";
+import "./PatientForms.css";
 import About from "./components/About";
+import Contact from "./components/Contact";
+import FAQs from "./components/FAQs";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
-import FAQs from "./components/FAQs";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
 
 function App() {

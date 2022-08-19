@@ -27,6 +27,10 @@ nav {
   text-decoration: none;
 }
 
+.nav-link:hover {
+  color: rgb(188, 193, 194);
+}
+
 .navbar-item {
   padding: 15px;
 }

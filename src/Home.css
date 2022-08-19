@@ -1,0 +1,14 @@
+
+.carousel-container {
+    background-color: black;
+    height: 600px;
+}
+
+.our-practice-container, .our-specialties-container, .questions-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    max-width: 1250px;
+    width: 100%;
+}
