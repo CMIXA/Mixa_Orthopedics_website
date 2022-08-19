@@ -27,6 +27,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className='seperator'></div>
             <div className='our-specialties-container'>
                 <div className='wrapper'>
                     <div className=''>
@@ -41,6 +42,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className='seperator'></div>
             <div className='questions-container'>
                 <div className='wrapper'>
                     <div>

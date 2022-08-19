@@ -46,7 +46,7 @@ function App() {
                 <Link className="nav-link" to="/ourservices">Our Services</Link>
               </div>
               <div className="navbar-item">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/about">About Us</Link>
               </div>
               <div className="navbar-item">
                 <Link className="nav-link" to="/patientforms">Patient Forms</Link>

@@ -35,6 +35,45 @@ const OurServices = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='seperator'></div>
+                    <div className='hospital-affiliations-container'>
+                        <div className='hospital-affiliations-wrapper'>
+                            <div className='hospital-affiliations-content'>
+                                <h1></h1>
+                                <p>St. Anthony's Hospital</p>
+                                <p>HCA Florida Pasadena Hospital</p>
+                                <p>HCA Florida Northside Hospital</p>
+                                <p>HCA Florida St. Petersburg Hospital</p>
+                                <p>Skyway Surgery Center</p>
+                            </div>
+                            <div className='hospital-affiliations-images'>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='seperator'></div>
+                    <div className='surgery-questions-container'>
+                        <div className='surgery-questions-wrapper'>
+                            <div className='surgery-questions-content'>
+                                <div>
+                                    <img alt='surgery'></img>
+                                </div>
+                                <h2>Any questions regarding surgery?</h2>
+                                <p>Please call us at 727-321-9644 and choose option 3.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='seperator'></div>
+                    <div className='emergency-room-container'>
+                        <div className='emergency-room-wrapper'>
+                            <div className='emergency-room-content'>
+                                <div>
+                                    <img alt='emergency room'></img>
+                                </div>
+                                <p>Please ask for Dr. Mixa for any urgent care or emergency room visits.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
