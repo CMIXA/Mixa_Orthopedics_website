@@ -33,6 +33,7 @@ nav {
 
 .nav-link-extra {
   color: aliceblue;
+  padding: 7px 25px;
   text-decoration: none;
 }
 
@@ -41,15 +42,21 @@ nav {
 }
 
 .navbar-items-extra {
-  background-color: black;
+  background-color: rgb(13, 42, 73);
   display: none;
+  line-height: 28px;
+  margin-top: 5px;
   position: absolute;
 }
 
-/* Change color of dropdown links on hover */
-.navbar-link-extra:hover {
-  background-color: #ddd;
+#dropdown {
+  position: relative;
 }
+
+/* Change color of dropdown links on hover */
+/* .navbar-link-extra:hover {
+  color: rgb(0, 0, 0);
+} */
 
 /* Show the dropdown menu on hover */
 #dropdown:hover .navbar-items-extra {
@@ -57,13 +64,15 @@ nav {
   flex-direction: column;
 }
 
+#hover:hover {
+  background-color: rgb(89, 125, 165);
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 /* #dropdown:hover .nav-link {
   background-color: #3e8e41;
 } */
-
-
 
 .navbar-items {
   display: flex;

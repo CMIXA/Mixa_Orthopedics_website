@@ -45,10 +45,10 @@ function App() {
                 <Link className="nav-link" to="/">Home</Link>
               </div>
               <div className="navbar-item dropdown" id="dropdown">
-                <Link className="nav-link" to="/ourservices">Our Services</Link>
+                <Link className="nav-link" to="/ourservices">Our Services v</Link>
                 <div className="navbar-items-extra">
-                  <Link className="nav-link-extra" to="/insurance">Insurance</Link>
-                  <Link className="nav-link-extra" to="/conditions">Conditions</Link>
+                  <Link className="nav-link-extra" id="hover" to="/insurance">Insurance</Link>
+                  <Link className="nav-link-extra" id="hover" to="/conditions">Conditions</Link>
                 </div>
               </div>
               <div className="navbar-item">
