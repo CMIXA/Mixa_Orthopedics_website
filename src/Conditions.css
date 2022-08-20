@@ -1,11 +1,15 @@
 
 .conditions-content-container {
-    align-items: center;
+    /* align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
     margin: 0 40px;
     max-width: 1250px;
     width: 100%;
+}
+
+.conditions-list {
+    display: flex;
 }
 
 .conditions-text-container {
@@ -32,6 +36,6 @@
 }
 
 .conditions-wrapper {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
