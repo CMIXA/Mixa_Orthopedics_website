@@ -2,9 +2,11 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./About.css";
 import "./App.css";
+import "./Conditions.css";
 import "./Contact.css";
 import "./FAQs.css";
-import './Footer.css';
+import "./Footer.css";
+import "./Insurance.css"
 import "./OurServices.css";
 import "./PatientForms.css";
 import About from "./components/About";
