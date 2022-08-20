@@ -31,6 +31,28 @@ const Contact = () => {
             </div>
             <div className='information-container '>
                 <div className='information-text'>
+                    <div>
+                        <div>
+                            <h2>Address:</h2>
+                            <p>1609 Pasadena Ave. S Suite 1A <br /> SouthPasadena, FL 33707</p>
+                        </div>
+                        <div>
+                            <h2>Phone:</h2>
+                            <p>727-321-9644</p>
+                        </div>
+                        <div>
+                            <h2>Fax:</h2>
+                            <p>727-321-8580</p>
+                        </div>
+                        <div>
+                            <h2>Billing:</h2>
+                            <p>727-955-2295</p>
+                        </div>
+                        <div>
+                            <h2>Email:</h2>
+                            <p>Email@drmixa.com</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='information-image'>
                     <img alt=''></img>
