@@ -31,9 +31,39 @@ nav {
   color: rgb(175, 177, 177);
 }
 
+.nav-link-extra {
+  color: aliceblue;
+  text-decoration: none;
+}
+
 .navbar-item {
   padding: 15px;
 }
+
+.navbar-items-extra {
+  background-color: black;
+  display: none;
+  position: absolute;
+}
+
+/* Change color of dropdown links on hover */
+.navbar-link-extra:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+#dropdown:hover .navbar-items-extra {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+/* #dropdown:hover .nav-link {
+  background-color: #3e8e41;
+} */
+
+
 
 .navbar-items {
   display: flex;

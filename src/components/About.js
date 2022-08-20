@@ -10,7 +10,9 @@ const About = () => {
             <div className='about-intro-container'>
                 <div className='about-intro-wrapper'>
                     <div className='about-intro-text'>
-
+                        <h2>Our Practice</h2>
+                        <p>Mixa Orthopedics has been open as a private orthopedic practice since 2008. Dr. Mixa works with his wife, Martha Mixa, who is his Physician's Assistant. While running his own practice, Dr. Mixa is also on call and seeing patients in the hospital at over 4 different hospitals in the Tampa Bay area. <br /> As said by the American Academy of Orthopedic Surgeons, "Orthopedics is the medical specialty devoted to the diagnosis, treatment, rehabilitation, and prevention of injuries and diseases of your body's musculoskeletal system. This complex system included your bones, joints, ligaments, tendons, muscles, and nerves and allows you to move, work, and be active."
+                        </p>
                     </div>
                     <div className='about-intro-picture'>
                         <img alt='office'></img>

@@ -8,10 +8,12 @@ import './Footer.css';
 import "./OurServices.css";
 import "./PatientForms.css";
 import About from "./components/About";
+import Conditions from "./components/Conditions"
 import Contact from "./components/Contact";
 import FAQs from "./components/FAQs";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import Insurance from "./components/Insurance";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
 
@@ -42,8 +44,12 @@ function App() {
               <div className="navbar-item">
                 <Link className="nav-link" to="/">Home</Link>
               </div>
-              <div className="navbar-item">
+              <div className="navbar-item dropdown" id="dropdown">
                 <Link className="nav-link" to="/ourservices">Our Services</Link>
+                <div className="navbar-items-extra">
+                  <Link className="nav-link-extra" to="/insurance">Insurance</Link>
+                  <Link className="nav-link-extra" to="/conditions">Conditions</Link>
+                </div>
               </div>
               <div className="navbar-item">
                 <Link className="nav-link" to="/about">About Us</Link>
@@ -71,6 +77,8 @@ function App() {
         <Route path="patientforms" element={<PatientForms />} />
         <Route path="faqs" element={<FAQs />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="insurance" element={<Insurance />} />
+        <Route path="conditions" element={<Conditions />} />
       </Routes>
       <Footer />
     </div>
