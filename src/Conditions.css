@@ -1,15 +1,20 @@
 
 .conditions-content-container {
-    /* align-items: center;
+    align-items: center;
     display: flex;
-    justify-content: center; */
-    margin: 0 40px;
-    max-width: 1250px;
-    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .conditions-list {
+    width: 400px;
+}
+
+.conditions-list-container {
+    /* align-items: center; */
     display: flex;
+    justify-content: center;
+    margin: 40px;
 }
 
 .conditions-text-container {
@@ -35,7 +40,8 @@
     color: white;
 }
 
-.conditions-wrapper {
-    /* display: flex;
-    justify-content: center; */
+.conditions-wrappper {
+    margin: 0 40px;
+    max-width: 1250px;
+    width: 100%;
 }

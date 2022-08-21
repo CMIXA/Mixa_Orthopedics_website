@@ -7,15 +7,17 @@ const Insurance = () => {
             <div className='insurance-title-container'>
                 <h1>Insurance</h1>
             </div>
-            <div className='insurance-wrappe'>
+            <div className='insurance-wrapper'>
                 <div className='payment-container'>
                     <p>Mixa Orthopedics is dedicated to providing you with the highest quality, cost effective medical care. We accept all major credit cards and offer payment installments.</p>
                 </div>
                 <div className='our-insurances-container'>
                     <h2>Insurance</h2>
                     <p>We accept nearly all major insurance plans including</p>
-                    <div>
-                        <div>
+                </div>
+                <div>
+                    <div className='insurance-list-container'>
+                        <div className='insurance-list'>
                             <ul>
                                 <li>AARP Suplemental</li>
                                 <li>Aetna Elect Choice</li>
@@ -37,7 +39,7 @@ const Insurance = () => {
                                 <li>Cigna Disney</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='insurance-list'>
                             <ul>
                                 <li>Cigna Medicare HMO</li>
                                 <li>Cigna Medicare PPO</li>
@@ -59,7 +61,7 @@ const Insurance = () => {
                                 <li>Preferred Care Partners</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='insurance-list'>
                             <ul>
                                 <li>Tricare Prime</li>
                                 <li>Tricare Standard</li>

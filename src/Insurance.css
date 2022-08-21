@@ -8,6 +8,19 @@
     width: 100%;
 }
 
+.insurance-list {
+    width: 350px;
+}
+
+.insurance-list-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    max-width: 1250px;
+    width: 100%;
+    /* margin: 40px; */
+}
+
 .insurance-text-container {
     display: flex;
     justify-content: space-between;
@@ -31,7 +44,24 @@
     color: white;
 }
 
-.insurance-wrapper {
+.our-insurnaces-container {
+    margin: 0 40px;
+    max-width: 1250px;
+    width: 100%;
+}
+/* .insurance-wrapper {
+    margin: 0 40px;
+    max-width: 1250px;
+    width: 100%;
+} */
+
+.payment-container {
     display: flex;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: 0 40px;
+    max-width: 1250px;
+    width: 100%;
+    /* width: 800px; */
 }
