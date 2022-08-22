@@ -3,7 +3,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin: 40px 40px 30px 40px;
 }
 
 .conditions-list {
@@ -14,7 +14,7 @@
     /* align-items: center; */
     display: flex;
     justify-content: center;
-    margin: 40px;
+    margin: 0 40px 50px 0;
 }
 
 .conditions-text-container {

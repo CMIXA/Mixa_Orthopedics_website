@@ -15,10 +15,7 @@
 .insurance-list-container {
     display: flex;
     justify-content: center;
-    margin: 0 40px;
-    max-width: 1250px;
-    width: 100%;
-    /* margin: 40px; */
+    margin: 30px 0 40px 0;
 }
 
 .insurance-text-container {
@@ -44,6 +41,17 @@
     color: white;
 }
 
+.insurance-wrapper {
+    margin: 0 auto;
+    max-width: 1250px;
+    width: 90%;
+}
+
+.not-listed {
+    text-align: center;
+    margin: 40px;
+}
+
 .our-insurnaces-container {
     margin: 0 40px;
     max-width: 1250px;
@@ -59,9 +67,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 30px 0 40px 0;
     text-align: center;
-    margin: 0 40px;
-    max-width: 1250px;
-    width: 100%;
-    /* width: 800px; */
 }
