@@ -43,6 +43,26 @@
     width: 100%;
 }
 
+.our-specialties-container {
+    display: flex;
+}
+
+.questions {
+    align-items: center;
+    display: flex;
+}
+
+.questions button {
+    height: 200px;
+    margin: 20px;
+    width: 200px;
+}
+
+.questions-wrapper {
+    margin: 20px 0 30px 0;
+}
+
+
 .seperator {
     background-color: rgb(227, 227, 227);
     height: 7px;
