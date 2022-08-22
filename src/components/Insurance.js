@@ -13,7 +13,7 @@ const Insurance = () => {
                 </div>
                 <div className='our-insurances-container'>
                     <h2>Insurance</h2>
-                    <p>We accept nearly all major insurance plans including</p>
+                    <p>We accept nearly all major insurance plans including:</p>
                 </div>
                 <div className='insurance-list-container'>
                     <div className='insurance-list'>

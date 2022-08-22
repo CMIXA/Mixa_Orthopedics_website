@@ -6,6 +6,7 @@ import "./Conditions.css";
 import "./Contact.css";
 import "./FAQs.css";
 import "./Footer.css";
+import "./Home.css";
 import "./Insurance.css"
 import "./OurServices.css";
 import "./PatientForms.css";

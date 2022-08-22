@@ -1,7 +1,37 @@
 
 .carousel-container {
     background-color: black;
-    height: 600px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+.carousel-content {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-content h2 {
+    margin-bottom: 20px;
+}
+
+.carousel-content button {
+    background-color: rgb(0, 0, 185);
+    border-color: transparent;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 35px;
+}
+
+.home-wrapper{
+    margin: 0 auto;
+    max-width: 1250px;
+    width: 90%;
 }
 
 .our-practice-container, .our-specialties-container, .questions-container {
