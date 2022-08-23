@@ -7,6 +7,10 @@
     width: 100%;
 }
 
+.about-intro-container {
+    margin: 60px 0;
+}
+
 .about-intro-picture img{
     width: 500px;
 }
@@ -51,7 +55,7 @@
 
 .about-wrapper {
     margin: 0 auto;
-    max-width: 1250px;
+    max-width: 1150px;
     width: 90%;
 }
 

@@ -25,12 +25,17 @@
     color: white;
     font-size: 16px;
     font-weight: 500;
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
+}
+
+.carousel-content button:hover {
+    background-color: aliceblue;
+    color: rgb(14, 14, 72);
 }
 
 .home-wrapper{
     margin: 0 auto;
-    max-width: 1250px;
+    max-width: 1150px;
     width: 90%;
 }
 
@@ -102,6 +107,10 @@
     padding: 20px;
     margin: 20px;
     width: 230px;
+}
+
+.questions button:hover {
+    background-color: rgb(234, 241, 249);
 }
 
 .questions-container {

@@ -1,4 +1,7 @@
 import React from 'react'
+import surgery from "./images/surgeon.png"
+import question from "./images/question.png"
+import er from "./images/ambulance.png"
 
 
 const OurServices = () => {
@@ -39,7 +42,7 @@ const OurServices = () => {
                     <div className='hospital-affiliations-container'>
                         <div className='hospital-affiliations-wrapper'>
                             <div className='hospital-affiliations-content'>
-                                <h1></h1>
+                                <h1>Dr. Mixa's Hospital affiliations</h1>
                                 <p>St. Anthony's Hospital</p>
                                 <p>HCA Florida Pasadena Hospital</p>
                                 <p>HCA Florida Northside Hospital</p>
@@ -56,7 +59,8 @@ const OurServices = () => {
                         <div className='surgery-questions-wrapper'>
                             <div className='surgery-questions-content'>
                                 <div>
-                                    <img alt='surgery'></img>
+                                    <img src={surgery} alt='surgery'></img>
+                                    <img src={question} alt='question'></img>
                                 </div>
                                 <h2>Any questions regarding surgery?</h2>
                                 <p>Please call us at 727-321-9644 and choose option 3.</p>
@@ -68,7 +72,7 @@ const OurServices = () => {
                         <div className='emergency-room-wrapper'>
                             <div className='emergency-room-content'>
                                 <div>
-                                    <img alt='emergency room'></img>
+                                    <img src={er} alt='emergency room'></img>
                                 </div>
                                 <p>Please ask for Dr. Mixa for any urgent care or emergency room visits.</p>
                             </div>

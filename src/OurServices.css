@@ -1,11 +1,33 @@
 
+.hospital-affiliations-container {
+    margin: 60px 0;
+}
+
+.emergency-room-container {
+    margin: 80px 0;
+}
+
+.emergency-room-content {
+    text-align: center;
+}
+
+.emergency-room-content img {
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+.hospital-affiliations-content p {
+    font-size: 22px;
+    line-height: 30px;
+}
+
 .ourservices-content-container {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 40px;
-    max-width: 1250px;
+    max-width: 1150px;
     width: 100%;
 }
 
@@ -68,4 +90,14 @@
 .specialties-title p {
     font-size: 14px;
     margin-top: 5px;
+}
+
+.surgery-questions-container {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.surgery-questions-content img {
+    margin-bottom: 30px;
+    width: 100px;
 }
