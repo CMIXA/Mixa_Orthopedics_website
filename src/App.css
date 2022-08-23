@@ -7,7 +7,12 @@
 }
 
 h1 {
+  font-size: 34px;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 28px;
 }
 
 .menu-icon img {

@@ -7,6 +7,25 @@
     width: 100%;
 }
 
+.about-intro-picture img{
+    width: 500px;
+}
+
+.about-intro-text {
+    max-width: 500px;
+}
+
+.about-intro-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-intro-wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .about-text-container {
     display: flex;
     justify-content: space-between;
@@ -31,6 +50,29 @@
 }
 
 .about-wrapper {
+    margin: 0 auto;
+    max-width: 1250px;
+    width: 90%;
+}
+
+.drmixa-resume-column {
+    width: 300px;
+}
+
+.drmixa-resume-wrapper {
     display: flex;
+}
+
+.meet-practicioners {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 100px;
     justify-content: center;
+    width: 100%;
+}
+
+.meet-practicioners h1 {
+    color: white;
+    font-size: 28px;
 }

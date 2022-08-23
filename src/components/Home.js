@@ -15,23 +15,21 @@ const Home = () => {
             </div>
             <div className='home-wrapper'>
                 <div className='our-practice-container'>
-                    <div className='wrapper'>
-                        <div className='office-building'>
-                            <img src={palms} alt='office'></img>
-                        </div>
-                        <div className=''>
-                            <div>
-                                <h2></h2>
-                                <p></p>
-                                <button>Learn more about us</button>
-                            </div>
+                    <div className='office-building'>
+                        <img src={palms} alt='office'></img>
+                    </div>
+                    <div className='our-practice-text'>
+                        <div>
+                            <h2>Our practice</h2>
+                            <p>Mixa Orthopedics has been open as a private orthopedic practice since 2008. Dr. Mixa works with his wife who is his Physician's Assistant. While running his own practice, Dr. Mixa is also on call and seeing patients in the hospital at over 4 different hospitals in the Tampa Bay area.<br /> <br /> Conservative approach has always been the mainstay of our practice. Surgery is considered only when all other options have been exhausted. Hospital Corporation of America (HCA) stats confirm we have the lowest complication rate in Florida. Dr. Mixa is available seven days a week performing surgery and conducting urgent consultations. Office hours are five days a week.</p>
+                            <button>Learn more about us</button>
                         </div>
                     </div>
                 </div>
                 <div className='seperator'></div>
                 <div className='our-specialties-container'>
-                    <div className=''>
-                        <div>
+                    <div>
+                        <div className='our-specialties-text'>
                             <h2>Our Specialties</h2>
                             <ul>
                                 <li>Total Joints</li>
@@ -55,7 +53,7 @@ const Home = () => {
                 <div className='seperator'></div>
                 <div className='questions-container'>
                     <div>
-                        <div>
+                        <div className='questions-container-title'>
                             <h1>How can we help?</h1>
                         </div>
                         <div className='questions-wrapper'>
@@ -70,7 +68,7 @@ const Home = () => {
                                 <button>Do we offer same day appointments?</button>
                             </div>
                         </div>
-                        <div>
+                        <div className='more-questions'>
                             <h2>Have more questions?</h2>
                             <button>Visit FAQs</button>
                         </div>
