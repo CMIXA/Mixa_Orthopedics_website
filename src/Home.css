@@ -15,11 +15,13 @@
 }
 
 .carousel-content h2 {
+    font-size: 24px;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
 .carousel-content button {
-    background-color: rgb(28, 28, 144);
+    background-color: rgb(50, 50, 188);
     border-color: transparent;
     border-radius: 20px;
     color: white;
