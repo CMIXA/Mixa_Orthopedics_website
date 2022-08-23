@@ -11,7 +11,7 @@ function Footer() {
                                 <img src='bones.png'></img>
                             </div>
                             <div className='title'>
-                                <h1>Mixa Orthopedics</h1>
+                                <h1 id='logo-title'>Mixa Orthopedics</h1>
                             </div>
                         </div>
                         <div className='footer-button'>

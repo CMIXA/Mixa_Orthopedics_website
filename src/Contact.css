@@ -1,6 +1,20 @@
 
+.appointment-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.appointment-content {
+    width: 400px;
+}
+
 .appointment-content ul {
     margin: 20px 0;
+}
+
+.appointment-image img {
+    width: 500px;
 }
 
 .contact-content-container {
@@ -37,6 +51,14 @@
 
 .contact-wrapper {
     margin: 0 auto;
-    max-width: 1250px;;
+    max-width: 1150px;;
     width: 90%;
+}
+
+.information-block {
+    margin-bottom: 25px;
+}
+
+.information-block h3 {
+    font-size: 20px;
 }

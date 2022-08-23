@@ -8,7 +8,7 @@ const Home = () => {
         <main>
             <div className='carousel-container'>
                 <div className='carousel-content'>
-                    <h1>For all your Orthopedic needs</h1>
+                    <h1>For all your orthopedic needs</h1>
                     <h2>Orthopedic Specialist for adults and children ages above 13</h2>
                     <button>Schedule and appointment</button>
                 </div>

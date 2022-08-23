@@ -22,10 +22,10 @@
     background-color: rgb(28, 28, 144);
     border-color: transparent;
     border-radius: 20px;
-    color: aliceblue;
+    color: white;
     font-size: 16px;
     font-weight: 500;
-    padding: 10px 35px;
+    padding: 10px 30px;
 }
 
 .home-wrapper{
@@ -63,7 +63,7 @@
 }
 
 .our-practice-text {
-    width: 500px;
+    width: 400px;
 }
 
 .our-practice-text p, h2 {

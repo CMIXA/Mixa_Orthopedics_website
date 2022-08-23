@@ -1,4 +1,5 @@
 import React from 'react'
+import patientforms from "./images/patientforms2.png"
 
 
 const PatientForms = () => {
@@ -17,7 +18,7 @@ const PatientForms = () => {
                     </div>
                     <div className='patientforms-doc-container'>
                         <div className='block'>
-                            <img src='patientforms.png'></img>
+                            <img src={patientforms}></img>
                         </div>
                         <div>
                             <p>Click the image above to download the Patient Registration Form</p>

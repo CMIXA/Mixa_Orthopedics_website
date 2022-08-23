@@ -40,7 +40,7 @@ function App() {
                 <img src='bones.png' alt="bones"></img>
               </div>
               <div className='navbar-title'>
-                  <h1>Mixa Orthopedics</h1>
+                  <h1 id="logo-title">Mixa Orthopedics</h1>
               </div>
             </div>
             <div className="navbar-items">
