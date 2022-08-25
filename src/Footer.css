@@ -1,4 +1,8 @@
 
+.address-content a {
+    color: white;
+}
+
 .column-1, .column-2, .column-3 {
     width: 300px;
 }
@@ -41,7 +45,10 @@
 
 .days-times {
     display: flex;
-    line-height: 25px;
+}
+
+.days-times p {
+    line-height: 30px;
 }
 
 .days, .times {

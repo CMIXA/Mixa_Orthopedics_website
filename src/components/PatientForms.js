@@ -14,7 +14,7 @@ const PatientForms = () => {
                         <h2>Patient Forms</h2>
                         <p>Save time when visiting the office and download your patient paperwork forms here. Print and bring them with you to your visit.</p>
                         <p>All new patients and returning patients who haven't been in the office within two years will need to update their paperwork.</p>
-                        <p>If you have any questions regarding the patient forms, <br /> please call us at 727-321-9644</p>
+                        <p>If you have any questions regarding the patient forms, <br /> please call us at <span id='phone-number'>727-321-9644</span></p>
                     </div>
                     <div className='patientforms-doc-container'>
                         <div className='block'>

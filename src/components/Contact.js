@@ -13,7 +13,7 @@ const Contact = () => {
                     <div className='appointment-content'>
                         <div>
                             <h2>Appointments</h2>
-                            <p>* Call us at 727-321-9644 to schedule an appointment today. We also offer same day appointments!</p>
+                            <p>* Call us at <span id='phone-number'>727-321-9644</span> to schedule an appointment today. We also offer same day appointments!</p>
                             <br />
                             <p>Please have the following items available to ensure we can input all of your information and get you on the schedule as quickly as possible.</p>
                             <ul>

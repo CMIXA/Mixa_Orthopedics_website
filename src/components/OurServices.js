@@ -63,7 +63,7 @@ const OurServices = () => {
                                     <img src={question} alt='question'></img>
                                 </div>
                                 <h2>Any questions regarding surgery?</h2>
-                                <p>Please call us at 727-321-9644 and choose option 3.</p>
+                                <p>Please call us at <span id='phone-number'>727-321-9644</span> and choose option 3.</p>
                             </div>
                         </div>
                     </div>

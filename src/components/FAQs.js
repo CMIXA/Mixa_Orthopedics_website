@@ -27,7 +27,7 @@ const FAQs = () => {
                     <FAQ question="Need a cortisone shot?" answer="Same day appointments are available." />
                 </div>
                 <div className='call-us'>
-                    <p>Don't see the question you were looking for? <br />Call us at 727-321-9644 and we'll be happy to answer!</p>
+                    <p>Don't see the question you were looking for? <br />Call us at <span id='phone-number'>727-321-9644</span> and we'll be happy to answer!</p>
                 </div>
             </div>
         </main>

@@ -159,6 +159,12 @@ nav {
   max-width: 1250px;
 }
 
+#phone-number {
+  color: rgb(0, 131, 202);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 @media (max-width: 1024px) { 
   .navbar-items{
     display: none;

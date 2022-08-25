@@ -83,7 +83,7 @@ const Insurance = () => {
                     </div>
                 </div>
                 <div className='not-listed'>
-                    <p>If your insurance plan is not listed above, please call us at 727-321-9644 to see if your insurance is still eligible.</p>
+                    <p>If your insurance plan is not listed above, please call us at <span id='phone-number'>727-321-9644</span> to see if your insurance is still eligible.</p>
                 </div>
             </div>
         </main>
