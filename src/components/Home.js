@@ -1,7 +1,7 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import palms from "./images/palms.jpeg"
 import xray from "./images/xray.jpeg"
-
 
 const Home = () => {
     return (
@@ -10,7 +10,9 @@ const Home = () => {
                 <div className='carousel-content'>
                     <h1>For all your orthopedic needs</h1>
                     <h2>Orthopedic Specialist for adults and children ages 13 and up</h2>
-                    <button id='button-1'>Schedule an Appointment</button>
+                    <Link to="/contact">
+                        <button id='button-1'>Schedule an Appointment</button>
+                    </Link>
                 </div>
             </div>
             <div className='home-wrapper'>
@@ -22,7 +24,9 @@ const Home = () => {
                         <div>
                             <h2>Our practice</h2>
                             <p>Mixa Orthopedics has been open as a private orthopedic practice since 2008. Dr. Mixa works with his wife who is his Physician's Assistant. While running his own practice, Dr. Mixa is also on call and seeing patients in the hospital at over 4 different hospitals in the Tampa Bay area.<br /> <br /> Conservative approach has always been the mainstay of our practice. Surgery is considered only when all other options have been exhausted. Hospital Corporation of America (HCA) stats confirm we have the lowest complication rate in Florida. Dr. Mixa is available seven days a week performing surgery and conducting urgent consultations. Office hours are five days a week.</p>
-                            <button id='button-1' >Learn more about us</button>
+                            <Link to="/about">
+                                <button id='button-1' >Learn more about us</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -43,7 +47,9 @@ const Home = () => {
                                 <li>Joint Pain</li>
                                 <li>X-rays, Casting, Splinting</li>
                             </ul>
-                            <button id='button-2'>Other conditions and treatments we treat ➜</button>
+                            <Link to="/conditions">
+                                <button id='button-2'>Other conditions and treatments we treat ➜</button>
+                            </Link>
                         </div>
                     </div>
                     <div className='our-specialties-image'>
@@ -58,14 +64,26 @@ const Home = () => {
                         </div>
                         <div className='questions-wrapper'>
                             <div className='questions'>
-                                <button>What insurances do we accept?</button>
-                                <button>New patient or need to update your patient forms?</button>
-                                <button>What time should I arrive before my appointment?</button>
+                                <Link to="/insurnace">
+                                    <button>What insurances do we accept?</button>
+                                </Link>
+                                <Link to="/patientforms">
+                                    <button>New patient or need to update your patient forms?</button>
+                                </Link>
+                                <Link to="/faqs">
+                                    <button>What time should I arrive before my appointment?</button>
+                                </Link>
                             </div>
                             <div className='questions'>
-                                <button>Need a cortisone injection?</button>
-                                <button>Do we offer prescription refills?</button>
-                                <button>Do we offer same day appointments?</button>
+                                <Link to="/faqs">
+                                    <button>Need a cortisone injection?</button>
+                                </Link>
+                                <Link to="/faqs">
+                                    <button>Do we offer prescription refills?</button>
+                                </Link>
+                                <Link to="/faqs">
+                                    <button>Do we offer same day appointments?</button>
+                                </Link>
                             </div>
                         </div>
                         <div className='more-questions'>
