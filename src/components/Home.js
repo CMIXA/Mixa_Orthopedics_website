@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='carousel-content'>
                     <h1>For all your orthopedic needs</h1>
                     <h2>Orthopedic Specialist for adults and children ages 13 and up</h2>
-                    <button>Schedule an Appointment</button>
+                    <button id='button-1'>Schedule an Appointment</button>
                 </div>
             </div>
             <div className='home-wrapper'>
@@ -22,7 +22,7 @@ const Home = () => {
                         <div>
                             <h2>Our practice</h2>
                             <p>Mixa Orthopedics has been open as a private orthopedic practice since 2008. Dr. Mixa works with his wife who is his Physician's Assistant. While running his own practice, Dr. Mixa is also on call and seeing patients in the hospital at over 4 different hospitals in the Tampa Bay area.<br /> <br /> Conservative approach has always been the mainstay of our practice. Surgery is considered only when all other options have been exhausted. Hospital Corporation of America (HCA) stats confirm we have the lowest complication rate in Florida. Dr. Mixa is available seven days a week performing surgery and conducting urgent consultations. Office hours are five days a week.</p>
-                            <button>Learn more about us</button>
+                            <button id='button-1' >Learn more about us</button>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Home = () => {
                                 <li>Joint Pain</li>
                                 <li>X-rays, Casting, Splinting</li>
                             </ul>
-                            <button>Other conditions and treatments</button>
+                            <button id='button-2'>Other conditions and treatments we treat ➜</button>
                         </div>
                     </div>
                     <div className='our-specialties-image'>
@@ -70,7 +70,7 @@ const Home = () => {
                         </div>
                         <div className='more-questions'>
                             <h2>Have more questions?</h2>
-                            <button>Visit FAQs</button>
+                            <button id='button-2'>Visit FAQs</button>
                         </div>
                     </div>
                 </div>

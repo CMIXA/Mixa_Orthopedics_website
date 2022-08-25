@@ -2,17 +2,48 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica Neue';
+  font-family: Helvetica;
   font-size: 16px;
 }
 
 button {
   border-color: transparent;
   border-radius: 20px;
+  cursor: pointer;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 11px 37px;
   transition: background-color 0.3s;
+}
+
+#button-1 {
+  background-color: rgb(61, 61, 201);
+  color: white;
+}
+
+#button-1:hover {
+  background-color: rgb(216, 216, 216);
+  color: rgb(14, 14, 72);
+}
+
+#button-2 {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+#button-2:hover {
+  background-color: rgb(216, 216, 216);
+  color: rgb(14, 14, 72);
+}
+
+#button-3 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#button-3:hover {
+  background-color: rgb(61, 61, 201);
+  color: white;
 }
 
 h1 {

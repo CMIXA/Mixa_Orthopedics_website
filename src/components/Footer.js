@@ -15,7 +15,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className='footer-button'>
-                            <button>Schedule an Appointment</button>
+                            <button id='button-3'>Schedule an Appointment</button>
                         </div>
                         <div className='number'>
                             <p>*Our phone number is available 24/7 for urgent calls</p>

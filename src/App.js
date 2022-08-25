@@ -23,13 +23,6 @@ import PatientForms from "./components/PatientForms";
 
 function App() {
 
-  // const menuIcon = document.getElementsByClassName('menu-icon')[0]
-  // const navbarItems = document.getElementsByClassName('navbar-items')[0]
-
-  // menuIcon.addEventListener('click', () => {
-  //   navbarItems.classList.toggle('active')
-  // }) 
-
   return (
     <div className="App">
       <>

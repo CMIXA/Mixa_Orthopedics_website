@@ -15,9 +15,9 @@
 
 .faq-box {
     align-items: center;
-    border: solid 1px;
-    border-color: rgb(156, 156, 156);
-    border-radius: 5px;
+    border: solid 2px;
+    border-color: rgb(156, 156, 156, 0.7);
+    border-radius: 8px;
     display: flex;
     margin-bottom: 15px;
     min-width: 300px;
