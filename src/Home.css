@@ -62,7 +62,7 @@
     width: 400px;
 }
 
-.our-practice-text p, h2 {
+.our-practice-text p, .our-practice-text h2{
     margin-bottom: 20px;
 }
 

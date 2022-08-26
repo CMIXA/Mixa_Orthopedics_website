@@ -134,7 +134,9 @@ nav {
 
 .navbar-title-wrapper {
   align-items: center;
+  color: white;
   display: flex;
+  text-decoration: none;
   width: 300px;
 }
 

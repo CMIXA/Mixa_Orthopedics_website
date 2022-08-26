@@ -28,14 +28,14 @@ function App() {
       <>
         <nav>
           <div className="navbar-wrapper">
-            <div className="navbar-title-wrapper">
+            <Link className="navbar-title-wrapper" to="/">
               <div className='navbar-title-image'>
                 <img src='bones.png' alt="bones"></img>
               </div>
               <div className='navbar-title'>
                   <h1 id="logo-title">Mixa Orthopedics</h1>
               </div>
-            </div>
+            </Link>
             <div className="navbar-items">
               <div className="navbar-item">
                 <Link className="nav-link" to="/">Home</Link>

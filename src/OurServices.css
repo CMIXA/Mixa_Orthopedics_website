@@ -3,6 +3,34 @@
     margin: 60px 0;
 }
 
+.hospital-affiliations-content {
+    margin-right: 100px;
+}
+
+.hospital-affiliations-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hospital-affiliations-images {
+    display: grid;
+    grid-template-columns: 275px 275px;
+    grid-row: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.hospital-affiliations-images img {
+    height: 200px;
+    width: 275px;
+}
+
+.hospital-affiliations-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .emergency-room-container {
     margin: 80px 0;
 }
@@ -17,14 +45,8 @@
 }
 
 .hospital-affiliations-content p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
-}
-
-.ourservices-wrapper {
-    margin: 0 auto;
-    max-width: 1150px;
-    width: 90%;
 }
 
 .ourservices-text-container {
@@ -56,6 +78,12 @@
     justify-content: center;
 }
 
+.ourservices-wrapper {
+    margin: 0 auto;
+    max-width: 1150px;
+    width: 90%;
+}
+
 .specialties-container {
     display: flex;
     flex-direction: column;
@@ -68,6 +96,10 @@
     flex-wrap: wrap;
     justify-content: center;
     line-height: 35px;
+}
+
+.specialties-list li {
+    font-size: 18px;
 }
 
 .list-1, .list-2{
@@ -85,9 +117,8 @@
     text-align: center;
 }
 
-.specialties-title p {
-    font-size: 14px;
-    margin-top: 5px;
+.specialties-title h2 {
+    margin-bottom: 10px;
 }
 
 .surgery-questions-container {
