@@ -32,6 +32,10 @@
     line-height: 33px;
 }
 
+.column-2, .column-3 {
+    margin-top: 20px;
+}
+
 .copyright {
     align-items: center;
     display: flex;
@@ -56,7 +60,7 @@
 }
 
 .footer {
-    background-color: rgb(32, 72, 142);
+    background-image: linear-gradient(rgb(68, 100, 180), rgb(17, 41, 113));
     color: rgb(255, 255, 255);
 }
 
@@ -78,7 +82,7 @@
     display: flex;
     height: auto;
     justify-content: center;
-    padding: 50px;
+    padding: 40px 60px 70px 60px;
 }
 
 .footer-title {
@@ -103,7 +107,7 @@
 
 .logo img {
     width: 37px;
-        margin-right: 10px;
+    margin-right: 10px;
 }
 
 .number p {

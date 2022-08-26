@@ -99,14 +99,14 @@
     border-radius: 10px;
     border-width: 5px;
     font-size: 18px;
-    height: 230px;
+    height: 190px;
     padding: 20px;
     margin: 20px;
-    width: 230px;
+    width: 220px;
 }
 
 .questions button:hover {
-    background-color: rgb(234, 241, 249);
+    background-color: rgb(144, 180, 238);
 }
 
 .questions-container {

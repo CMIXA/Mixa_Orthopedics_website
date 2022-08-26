@@ -41,7 +41,7 @@ function App() {
                 <Link className="nav-link" to="/">Home</Link>
               </div>
               <div className="navbar-item dropdown" id="dropdown">
-                <Link className="nav-link" to="/ourservices">Our Services v</Link>
+                <Link className="nav-link" to="/ourservices">Our Services <span className="ourservices-arrow">v</span></Link>
                 <div className="navbar-items-extra">
                   <Link className="nav-link-extra" id="hover" to="/insurance">Insurance</Link>
                   <Link className="nav-link-extra" id="hover" to="/conditions">Conditions</Link>

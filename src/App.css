@@ -22,8 +22,8 @@ button {
 }
 
 #button-1:hover {
-  background-color: rgb(216, 216, 216);
-  color: rgb(14, 14, 72);
+  background-color: rgb(149, 149, 241);
+  color: rgb(255, 255, 255);
 }
 
 #button-2 {
@@ -32,8 +32,8 @@ button {
 }
 
 #button-2:hover {
-  background-color: rgb(216, 216, 216);
-  color: rgb(14, 14, 72);
+  background-color: rgb(145, 145, 145);
+  color: rgb(255, 255, 255);
 }
 
 #button-3 {
@@ -69,10 +69,10 @@ p {
 
 nav {
   align-items: center;
-  background-color: rgb(42, 81, 149);
+  background-image: linear-gradient( rgb(77, 115, 202), rgb(37, 61, 134));
   color: white;
   display: flex;
-  height: 75px;
+  height: 90px;
   justify-content: center;
 }
 
@@ -92,7 +92,13 @@ nav {
 }
 
 .navbar-item {
-  padding: 15px;
+  padding: 15px 23px;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: end;
+  width: 75%;
 }
 
 .navbar-items-extra {
@@ -107,12 +113,6 @@ nav {
   position: relative;
 }
 
-/* Change color of dropdown links on hover */
-/* .navbar-link-extra:hover {
-  color: rgb(0, 0, 0);
-} */
-
-/* Show the dropdown menu on hover */
 #dropdown:hover .navbar-items-extra {
   display: flex;
   flex-direction: column;
@@ -120,18 +120,6 @@ nav {
 
 #hover:hover {
   background-color: rgb(89, 125, 165);
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-
-/* #dropdown:hover .nav-link {
-  background-color: #3e8e41;
-} */
-
-.navbar-items {
-  display: flex;
-  justify-content: end;
-  width: 75%;
 }
 
 .navbar-title {
@@ -147,7 +135,7 @@ nav {
 .navbar-title-wrapper {
   align-items: center;
   display: flex;
-  width: 400px;
+  width: 300px;
 }
 
 .navbar-wrapper {
@@ -157,6 +145,10 @@ nav {
   width: 100%;
   margin: 0 40px;
   max-width: 1250px;
+}
+
+.ourservices-arrow {
+  font-size: 8px;
 }
 
 #phone-number {

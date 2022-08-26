@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 function Footer() {
     return (
@@ -15,7 +16,9 @@ function Footer() {
                             </div>
                         </div>
                         <div className='footer-button'>
-                            <button id='button-3'>Schedule an Appointment</button>
+                            <Link to="/contact">
+                                <button id='button-3'>Schedule an Appointment</button>
+                            </Link>
                         </div>
                         <div className='number'>
                             <p>*Our phone number is available 24/7 for urgent calls</p>
