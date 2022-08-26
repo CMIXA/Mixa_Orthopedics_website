@@ -11,7 +11,7 @@ import generalH from "./images/generalH.jpeg"
 const OurServices = () => {
     return (
         <main className='ourservices-container'>
-            <div className='ourservices-title-container'>
+            <div className='title-container'>
                 <h1>Our Services</h1>
             </div>
             <div className='ourservices-content-container'>

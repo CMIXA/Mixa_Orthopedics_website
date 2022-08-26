@@ -6,7 +6,7 @@ import palms from "./images/palms.jpeg"
 const Contact = () => {
     return (
         <main>
-            <div className='contact-title-container'>
+            <div className='title-container'>
                 <h1>Contact us</h1>
             </div>
             <div className='contact-wrapper'>

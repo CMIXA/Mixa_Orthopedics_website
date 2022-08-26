@@ -5,7 +5,7 @@ import ScrollUp from './ScrollUp.js'
 const Insurance = () => {
     return (
         <main className='insurance-container'>
-            <div className='insurance-title-container'>
+            <div className='title-container'>
                 <h1>Insurance</h1>
             </div>
             <div className='insurance-wrapper'>

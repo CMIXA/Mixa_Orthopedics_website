@@ -7,7 +7,7 @@ import patientdoc from "./images/patientdoc.docx"
 const PatientForms = () => {
     return (
         <main className='patientforms-container'>
-            <div className='patientforms-title-container'>
+            <div className='title-container'>
                 <h1>Patient Forms</h1>
             </div>
             <div className='patientforms-wrapper'>

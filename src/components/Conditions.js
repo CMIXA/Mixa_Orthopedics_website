@@ -5,7 +5,7 @@ import ScrollUp from './ScrollUp.js'
 const Conditions = () => {
     return (
         <main className='conditions-container'>
-            <div className='conditions-title-container'>
+            <div className='title-container'>
                 <h1>Conditions and Treatments</h1>
             </div>
             <div className='conditions-wrapper'>
