@@ -59,12 +59,10 @@
     width: 90%;
 }
 
-.drmixa-resume-column {
-    width: 300px;
-}
-
-.drmixa-resume-wrapper {
-    display: flex;
+.about-wrapper-2{
+    margin: 0 auto;
+    max-width: 950px;
+    width: 90%;
 }
 
 .meet-practicioners {
@@ -78,7 +76,7 @@
 
 .meet-practicioners h1 {
     color: white;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .practicioner-container {
@@ -95,4 +93,27 @@
     display: flex;
     justify-content: center;
     padding: 70px;
+}
+
+.resume-column {
+    width: 350px;
+}
+
+.resume-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.resume-column p {
+    margin-bottom: 20px;
+}
+
+.resume-column-container {
+    width: 600px;
+}
+
+.resume-wrapper {
+    display: flex;
+    /* justify-content: center; */
+    margin: 40px 0;
 }

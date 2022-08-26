@@ -43,17 +43,17 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='about-wrapper'>
-                    <div className='drmixa-resume-container'>
-                        <div className='drmixa-resume-wrapper'>
-                            <div>
-                                <div className='drmixa-resume-column'>
+                <div className='about-wrapper-2'>
+                    <div className='resume-container'>
+                        <div className='resume-wrapper'>
+                            <div className='resume-column-container'>
+                                <div className='resume-column'>
                                     <h3>Residency</h3>
                                     <p>Johns Hopkins Hospital, Orthopedics, Baltimore, Maryland</p>
                                     <p>Catholic Medical Center, Orthopedics, New York, New York</p>
                                     <p>Metro Group Hospitals, University of Illinois, Internship General Surgery, Chicago, Illinois</p>
                                 </div>
-                                <div className='drmixa-resume-column'>
+                                <div className='resume-column'>
                                     <h3>Education</h3>
                                     <p>Loyola University of Chicago, IL graduated 1979 Bachelor of Science in Biology</p>
                                     <p>The Chicago Medical School, Chicago, IL graduated 1985 Medical Degree (M.D.)</p>
@@ -63,21 +63,21 @@ const About = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className='drmixa-resume-column'>
+                                <div className='resume-column'>
                                     <h3>Hospital Positions</h3>
                                     <p>Multiple Committee Positions, over 20+ yearsInfectious Disease, Utilization Review, Surgical Boards</p>
                                     <p>Chief of Orthopedics 2004-2005 St. Anthony's Hospital, St. Petersburg, FL</p>
                                     <p>Surgical Governance Committee 2012-2020 St. Anthony's Hospital, St. Petersburg, FL</p>
                                     <p>Section Chief of Orthopedics 2012-2020St. Anthony's Hospital, St. Petersburg, FL</p>
                                 </div>
-                                <div className='drmixa-resume-column'>
+                                <div className='resume-column'>
                                     <h3>Professional Positions</h3>
                                     <p>Anatomy Instructor 1977-1979 Loyola University of Chicago</p>
                                     <p>Team Physician for Tampa Bay Devil Rays 1998-2006 St. Petersburg, Florida</p>
                                     <p>Clinical Instructor Family Medicine Residency Program at HCA Florida St. Petersburg Hospital  2010- PresentFamily Physician Residency Program</p>
                                     <p>Clinical Professor NOVA 2009-Present <br /> Physician Assistant Residency Program</p>
                                 </div>
-                                <div className='drmixa-resume-column'>
+                                <div className='resume-column'>
                                     <h3>Volunteer Positions</h3>
                                     <p>Faith in Practice Medical Missions to Antigua, Guatemala 2011-2018 <br /> Antigua, Guatemala</p>
                                     <p>St. Petersburg Free Clinic, 2009-2018 <br /> St. Petersburg, Florida </p>
@@ -101,17 +101,17 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='about-wrapper'>
-                    <div className='mrsmixa-resume-container'>
-                        <div className='drmixa-resume-wrapper'>
-                            <div>
-                                <div className='drmixa-resume-column'>
+                <div className='about-wrapper-2'>
+                    <div className='resume-container'>
+                        <div className='resume-wrapper'>
+                            <div className='resume-column-container'>
+                                <div className='resume-column'>
                                     <h3>Professional Positions</h3>
                                     <p>Surgical/Vascular Physician's Assistant <br /> 1985-1987</p>
                                 </div>
                             </div>
                             <div>
-                                <div className='drmixa-resume-column'>
+                                <div className='resume-column'>
                                     <h3>Education</h3>
                                     <p>St. Johns University, Jamacia, New York <br /> Bachelor's of Science in Biology <br /> Physician's Assistant</p>
                                 </div>
