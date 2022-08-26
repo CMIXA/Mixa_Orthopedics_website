@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollUp from './ScrollUp.js'
 import patientforms from "./images/patientforms2.png"
 
 
@@ -26,6 +27,7 @@ const PatientForms = () => {
                     </div>
                 </div>
             </div>
+            <ScrollUp />
         </main>
     )
 }

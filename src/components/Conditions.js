@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollUp from './ScrollUp.js'
 
 
 const Conditions = () => {
@@ -154,6 +155,7 @@ const Conditions = () => {
                     </div>
                 </div>
             </div>
+            <ScrollUp />
         </main>
     )
 }

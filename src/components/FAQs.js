@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollUp from './ScrollUp.js'
 
 
 function FAQ(props) {
@@ -30,6 +31,7 @@ const FAQs = () => {
                     <p>Don't see the question you were looking for? <br />Call us at <span id='phone-number'>727-321-9644</span> and we'll be happy to answer!</p>
                 </div>
             </div>
+            <ScrollUp />
         </main>
     )
 }

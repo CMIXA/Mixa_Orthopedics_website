@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollUp from './ScrollUp.js'
 import palms from "./images/palms.jpeg"
 
 
@@ -63,6 +64,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ScrollUp />
         </main>
     )
 }

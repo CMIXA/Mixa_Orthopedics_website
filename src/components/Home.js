@@ -64,7 +64,7 @@ const Home = () => {
                         </div>
                         <div className='questions-wrapper'>
                             <div className='questions'>
-                                <Link to="/insurnace">
+                                <Link to="/insurance">
                                     <button>What insurances do we accept?</button>
                                 </Link>
                                 <Link to="/patientforms">
@@ -88,7 +88,9 @@ const Home = () => {
                         </div>
                         <div className='more-questions'>
                             <h2>Have more questions?</h2>
-                            <button id='button-2'>Visit FAQs</button>
+                            <Link to="/faqs">
+                                <button id='button-2'>Visit FAQs</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

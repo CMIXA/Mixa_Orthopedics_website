@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollUp from './ScrollUp.js'
 
 
 const Insurance = () => {
@@ -86,6 +87,7 @@ const Insurance = () => {
                     <p>If your insurance plan is not listed above, please call us at <span id='phone-number'>727-321-9644</span> to see if your insurance is still eligible.</p>
                 </div>
             </div>
+            <ScrollUp />
         </main>
     )
 }
