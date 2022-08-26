@@ -21,14 +21,10 @@
     line-height: 30px;
 }
 
-.ourservices-content-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 40px;
+.ourservices-wrapper {
+    margin: 0 auto;
     max-width: 1150px;
-    width: 100%;
+    width: 90%;
 }
 
 .ourservices-text-container {
@@ -54,15 +50,17 @@
     color: white;
 }
 
-.ourservices-wrapper {
+.ourservices-content-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .specialties-container {
-    margin: 50px 40px 70px 40px;
-    max-width: 900px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
 }
 
 .specialties-list {

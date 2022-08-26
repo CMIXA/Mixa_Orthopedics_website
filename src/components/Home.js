@@ -6,7 +6,7 @@ import xray from "./images/xray.jpeg"
 const Home = () => {
     return (
         <main>
-            <div class="slideshow-container">
+            {/* <div class="slideshow-container">
                 <div class="mySlides fade">
                     <img></img>
                 </div>
@@ -18,7 +18,7 @@ const Home = () => {
                 <div class="mySlides fade">
                     <img></img>
                 </div>
-            </div>
+            </div> */}
             <div className='carousel-container'>
                 <div className='carousel-content'>
                     <h1>For all your orthopedic needs</h1>
@@ -43,7 +43,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='seperator'></div>
+            </div>
+            <div className='seperator1'></div>
+            <div className='home-wrapper'>
                 <div className='our-specialties-container'>
                     <div>
                         <div className='our-specialties-text'>
@@ -69,7 +71,9 @@ const Home = () => {
                         <img src={xray} alt='xray'></img>
                     </div>
                 </div>
-                <div className='seperator'></div>
+            </div>
+            <div className='seperator1'></div>
+            <div className='home-wrapper'>
                 <div className='questions-container'>
                     <div>
                         <div className='questions-container-title'>

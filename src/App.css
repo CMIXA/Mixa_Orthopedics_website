@@ -157,6 +157,12 @@ nav {
   text-decoration: underline;
 }
 
+.seperator1 {
+  background-color: rgb(227, 227, 227);
+  height: 9px;
+  width: 100%;
+}
+
 @media (max-width: 1024px) { 
   .navbar-items{
     display: none;

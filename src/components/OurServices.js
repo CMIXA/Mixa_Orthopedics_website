@@ -14,8 +14,8 @@ const OurServices = () => {
             <div className='ourservices-title-container'>
                 <h1>Our Services</h1>
             </div>
-            <div className='ourservices-wrapper'>
-                <div className='ourservices-content-container'>
+            <div className='ourservices-content-container'>
+                <div className='ourservices-wrapper'>
                     <div className='specialties-container'>
                         <div className='specialties-title'>
                             <h2>Our Specialties & Services</h2>
@@ -42,7 +42,9 @@ const OurServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='seperator'></div>
+                </div>
+                <div className='seperator1'></div>
+                <div className='ourservices-wrapper'>
                     <div className='hospital-affiliations-container'>
                         <div className='hospital-affiliations-wrapper'>
                             <div className='hospital-affiliations-content'>
@@ -61,7 +63,9 @@ const OurServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='seperator'></div>
+                </div>
+                <div className='seperator1'></div>
+                <div className='ourservices-wrapper'>
                     <div className='surgery-questions-container'>
                         <div className='surgery-questions-wrapper'>
                             <div className='surgery-questions-content'>
@@ -74,7 +78,9 @@ const OurServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='seperator'></div>
+                </div>
+                <div className='seperator1'></div>
+                <div className='ourservices-wrapper'>
                     <div className='emergency-room-container'>
                         <div className='emergency-room-wrapper'>
                             <div className='emergency-room-content'>

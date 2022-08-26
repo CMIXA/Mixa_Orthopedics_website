@@ -29,7 +29,7 @@ const About = () => {
                     <h1>Meet our Practicioners</h1>
                 </div>
                 <div className='practicioner-container'>
-                    <div className='about-wrapper'>
+                    <div className='about-wrapper-2'>
                         <div className='practicioner-wrapper'>
                             <div>
                                 <img src={drmixa} alt='drmixa'></img>
@@ -87,7 +87,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='practicioner-container'>
-                    <div className='about-wrapper'>
+                    <div className='about-wrapper-2'>
                         <div className='practicioner-wrapper'>
                             <div>
                                 <img src={mrsmixa} alt='mrsmixa'></img>
