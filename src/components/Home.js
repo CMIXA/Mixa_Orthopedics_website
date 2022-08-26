@@ -6,6 +6,19 @@ import xray from "./images/xray.jpeg"
 const Home = () => {
     return (
         <main>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img></img>
+                </div>
+
+                <div class="mySlides fade">
+                    <img></img>
+                </div>
+
+                <div class="mySlides fade">
+                    <img></img>
+                </div>
+            </div>
             <div className='carousel-container'>
                 <div className='carousel-content'>
                     <h1>For all your orthopedic needs</h1>

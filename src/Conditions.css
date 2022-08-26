@@ -3,7 +3,11 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 40px 40px 30px 40px;
+    margin: 40px 40px 15px 40px;
+}
+
+.conditions-content-container h2 {
+    font-size: 24px;
 }
 
 .conditions-list {
@@ -11,7 +15,6 @@
 }
 
 .conditions-list-container {
-    /* align-items: center; */
     display: flex;
     justify-content: center;
     margin: 0 40px 50px 0;

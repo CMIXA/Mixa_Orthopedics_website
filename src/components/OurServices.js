@@ -2,6 +2,10 @@ import React from 'react'
 import surgery from "./images/surgeon.png"
 import question from "./images/question.png"
 import er from "./images/ambulance.png"
+import palmsH from "./images/palmsH.jpeg"
+import anthonysH from "./images/anthonysH.jpeg"
+import northsideH from "./images/northsideH.jpeg"
+import generalH from "./images/generalH.jpeg"
 
 
 const OurServices = () => {
@@ -50,7 +54,10 @@ const OurServices = () => {
                                 <p>Skyway Surgery Center</p>
                             </div>
                             <div className='hospital-affiliations-images'>
-                                <div></div>
+                                <img src={palmsH} alt="palms"></img>
+                                <img src={anthonysH}></img>
+                                <img src={northsideH}></img>
+                                <img src={generalH}></img>
                             </div>
                         </div>
                     </div>

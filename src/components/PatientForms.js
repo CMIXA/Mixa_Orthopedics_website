@@ -1,6 +1,7 @@
 import React from 'react'
 import ScrollUp from './ScrollUp.js'
 import patientforms from "./images/patientforms2.png"
+import patientdoc from "./images/patientdoc.docx"
 
 
 const PatientForms = () => {
@@ -19,7 +20,7 @@ const PatientForms = () => {
                     </div>
                     <div className='patientforms-doc-container'>
                         <div className='block'>
-                            <img src={patientforms}></img>
+                            <a download={patientdoc} href={patientdoc}><img src={patientforms}></img></a>
                         </div>
                         <div>
                             <p>Click the image above to download the Patient Registration Form</p>

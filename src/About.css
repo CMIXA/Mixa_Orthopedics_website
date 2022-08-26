@@ -80,3 +80,19 @@
     color: white;
     font-size: 28px;
 }
+
+.practicioner-container {
+    background-color: rgb(44, 44, 44);
+}
+
+.practicioner-text {
+    margin: 0 100px;
+    width: 400px;
+}
+
+.practicioner-wrapper {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
