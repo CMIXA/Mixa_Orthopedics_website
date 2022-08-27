@@ -44,6 +44,10 @@
     width: 150px;
 }
 
+.emergency-room-content p {
+    font-size: 22px;
+}
+
 .hospital-affiliations-content p {
     font-size: 20px;
     line-height: 30px;
@@ -109,7 +113,16 @@
     text-align: center;
 }
 
+.surgery-questions-content h2 {
+    margin-bottom: 15px;
+}
+
 .surgery-questions-content img {
     margin-bottom: 30px;
     width: 100px;
 }
+
+.surgery-questions-content p {
+    font-size: 18px;
+}
+

@@ -10,7 +10,7 @@ const Insurance = () => {
             </div>
             <div className='insurance-wrapper'>
                 <div className='payment-container'>
-                    <p>Mixa Orthopedics is dedicated to providing you with the highest quality, cost effective medical care. We accept all major credit cards and offer payment installments.</p>
+                    <p>Mixa Orthopedics is dedicated to providing you with the highest quality, cost effective medical care. <br /> We accept all major credit cards and offer payment installments.</p>
                 </div>
                 <div className='our-insurances-container'>
                     <h2>Insurance</h2>

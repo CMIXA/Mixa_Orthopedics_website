@@ -6,11 +6,12 @@
 }
 
 .call-us p {
+    font-size: 18px;
     line-height: 30px;
 }
 
 .faq-answer {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .faq-box {
@@ -25,7 +26,8 @@
 }
 
 .faq-question {
-    color: rgb(4, 150, 183);
+    color: rgb(0, 114, 184);
+    font-size: 18px;
     font-weight: 700;
     margin-bottom: 6px;
 }

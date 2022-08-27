@@ -2,9 +2,9 @@ import React from 'react'
 import ScrollUp from './ScrollUp.js'
 import palms from "./images/palms.jpeg"
 
-
 const Contact = () => {
     return (
+
         <main>
             <div className='title-container'>
                 <h1>Contact us</h1>
@@ -34,6 +34,7 @@ const Contact = () => {
                         <img src={palms} alt='office'></img>
                     </div>
                 </div>
+                <hr className='line'></hr>
                 <div className='information-container '>
                     <div className='information-text'>
                         <div>
@@ -60,7 +61,12 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='information-image'>
-                        <img alt=''></img>
+                        <iframe className='googlemaps' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14123.453080015033!2d-82.7408285!3d27.752363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x430f270149a4302d!2sMixa%20Orthopedics!5e0!3m2!1sen!2sus!4v1661573371098!5m2!1sen!2sus" 
+                        width="600" 
+                        height="450" 
+                        style={{ border: 0 }} 
+                        allowFullScreen="" 
+                        loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

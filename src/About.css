@@ -71,6 +71,15 @@
     width: 400px;
 }
 
+.practicioner-text h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.practicioner-text p {
+    font-size: 18px;
+}
+
 .practicioner-wrapper {
     color: white;
     display: flex;
