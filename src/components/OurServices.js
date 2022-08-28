@@ -11,7 +11,7 @@ import generalH from "./images/generalH.jpeg"
 const OurServices = () => {
     return (
         <main className='ourservices-container'>
-            <div className='title-container'>
+            <div className='title-container' id='ourservices-title'>
                 <h1>Our Services</h1>
             </div>
             <div className='ourservices-content-container'>
@@ -57,9 +57,9 @@ const OurServices = () => {
                             </div>
                             <div className='hospital-affiliations-images'>
                                 <img src={palmsH} alt="palms"></img>
-                                <img src={anthonysH}></img>
-                                <img src={northsideH}></img>
-                                <img src={generalH}></img>
+                                <img src={anthonysH} alt="st.anthonys"></img>
+                                <img src={northsideH} alt="northside"></img>
+                                <img src={generalH} alt="stpetegeneral"></img>
                             </div>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ const Contact = () => {
     return (
 
         <main>
-            <div className='title-container'>
+            <div className='title-container' id='contact-title'>
                 <h1>Contact us</h1>
             </div>
             <div className='contact-wrapper'>
@@ -35,7 +35,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <hr className='line'></hr>
-                <div className='information-container '>
+                <div className='information-container'>
                     <div className='information-text'>
                         <div>
                             <div className='information-block'>

@@ -45,6 +45,10 @@
     width: 450px;
 }
 
+#patientforms-title {
+    background-image: url(components/images/patientforms.png);
+}
+
 .patientforms-wrapper {
     display: flex;
     justify-content: center;

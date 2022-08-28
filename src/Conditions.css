@@ -3,7 +3,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 40px 40px 15px 40px;
+    margin: 40px 40px 25px 40px;
 }
 
 .conditions-content-container h2 {
@@ -24,6 +24,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+#conditions-title {
+    background-image: url(components/images/conditions.png);
 }
 
 .conditions-wrappper {

@@ -156,7 +156,8 @@ nav {
 }
 
 .ourservices-arrow {
-  font-size: 8px;
+  font-size: 9px;
+  font-weight: 900;
 }
 
 #phone-number {
@@ -174,7 +175,6 @@ nav {
 .title-container {
   align-items: center;
   background-color: rgb(37, 37, 37);
-  background-image: url(components/images/ourservices.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

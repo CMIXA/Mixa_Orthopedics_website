@@ -25,6 +25,10 @@
     width: 100%;
 }
 
+#insurance-title {
+    background-image: url(components/images/insurance.jpeg);
+}
+
 .insurance-wrapper {
     padding: 20px 0;
     margin: 0 auto;

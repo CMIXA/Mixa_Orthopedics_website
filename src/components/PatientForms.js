@@ -7,7 +7,7 @@ import patientdoc from "./images/patientdoc.docx"
 const PatientForms = () => {
     return (
         <main className='patientforms-container'>
-            <div className='title-container'>
+            <div className='title-container' id='patientforms-title'>
                 <h1>Patient Forms</h1>
             </div>
             <div className='patientforms-wrapper'>
@@ -20,7 +20,7 @@ const PatientForms = () => {
                     </div>
                     <div className='patientforms-doc-container'>
                         <div className='block'>
-                            <a download={patientdoc} href={patientdoc}><img src={patientforms}></img></a>
+                            <a download={patientdoc} href={patientdoc}><img alt="patientform" src={patientforms}></img></a>
                         </div>
                         <div>
                             <p>Click the image above to download the Patient Registration Form</p>

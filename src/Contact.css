@@ -36,6 +36,10 @@
     width: 100%;
 }
 
+#contact-title {
+    background-image: url(components/images/contact1.png);
+}
+
 .contact-wrapper {
     margin: 0 auto;
     max-width: 1150px;;

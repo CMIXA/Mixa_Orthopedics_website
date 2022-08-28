@@ -14,7 +14,7 @@ function FAQ(props) {
 const FAQs = () => {
     return (
         <main className='faqs-container'>      
-            <div className='title-container'>
+            <div className='title-container' id='faqs-title'>
                 <h1>Frequently asked questions</h1>
             </div>
             <div className='faqs-wrapper'>

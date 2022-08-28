@@ -50,6 +50,10 @@
     width: 100%;
 }
 
+#faqs-title {
+    background-image: url(components/images/FAQs.png);
+}
+
 .faqs-wrapper {
     display: flex;
     flex-direction: column;

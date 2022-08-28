@@ -8,7 +8,7 @@ import mrsmixa from "./images/mrsmixa.webp"
 const About = () => {
     return (
         <main>
-            <div className='title-container'>
+            <div className='title-container' id='about-title'>
                 <h1>About us</h1>
             </div>
             <div className='about-wrapper'>
