@@ -35,7 +35,7 @@ const Home = () => {
                     </div>
                     <div className='our-practice-text'>
                         <div>
-                            <h2>Our practice</h2>
+                            <h2>Our Practice</h2>
                             <p>Mixa Orthopedics has been open as a private orthopedic practice since 2008. Dr. Mixa works with his wife who is his Physician's Assistant. While running his own practice, Dr. Mixa is also on call and seeing patients in the hospital at over 4 different hospitals in the Tampa Bay area.<br /> <br /> Conservative approach has always been the mainstay of our practice. Surgery is considered only when all other options have been exhausted. Hospital Corporation of America (HCA) stats confirm we have the lowest complication rate in Florida. Dr. Mixa is available seven days a week performing surgery and conducting urgent consultations. Office hours are five days a week.</p>
                             <Link to="/about">
                                 <button id='button-1' >Learn more about us</button>
