@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, Navigate } from "react-router-dom";
 import "./About.css";
 import "./App.css";
 import "./Conditions.css";
@@ -19,6 +19,7 @@ import Home from "./components/Home";
 import Insurance from "./components/Insurance";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
+import {Switch} from 'react-router';
 // import bones from "./images/bones.png"; 
 
 
@@ -76,6 +77,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="insurance" element={<Insurance />} />
         <Route path="conditions" element={<Conditions />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </div>
