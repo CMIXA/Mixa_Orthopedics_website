@@ -1,6 +1,10 @@
 
 .carousel-container {
-    background-color: black;
+    background-image: url(components/images/introslide1.1.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
     display: flex;
     align-items: center;
     height: 550px;

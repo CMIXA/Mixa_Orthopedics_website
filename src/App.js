@@ -19,6 +19,7 @@ import Home from "./components/Home";
 import Insurance from "./components/Insurance";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
+// import bones from "./images/bones.png"; 
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
           <div className="navbar-wrapper">
             <Link className="navbar-title-wrapper" to="/">
               <div className='navbar-title-image'>
-                <img src='bones.png' alt="bones"></img>
+                <img src="bones.png" alt="bones"></img>
               </div>
               <div className='navbar-title'>
                   <h1 id="logo-title">Mixa Orthopedics</h1>
