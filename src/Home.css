@@ -48,18 +48,19 @@
 }
 
 .office-building img {
-    height: 375px;
+    height: auto;
     width: 475px;
+    min-width: 300px;
 }
 
 .our-practice-container {
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 60px 0;
+    margin: 70px 0;
 }
 
 .our-practice-text {
-    width: 430px;
+    width: 45%;
 }
 
 .our-practice-text p, .our-practice-text h2{
@@ -94,7 +95,7 @@
 .questions {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .questions button {
@@ -157,3 +158,27 @@
         opacity: 1
     }
 } */
+
+@media (max-width: 1024px) {
+
+    /* .our-practice-container, .our-specialties-container {
+        justify-content: center;
+    } */
+
+    .our-practice-text, .our-specialties-text {
+        margin-top: 30px;
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .questions {
+        flex-direction: column;
+    }
+
+    .questions button {
+        height: 250px;
+        width: 300px;
+    }
+}

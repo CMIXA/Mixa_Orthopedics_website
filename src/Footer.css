@@ -114,3 +114,30 @@
     font-size: 0.875rem;
     font-style: italic;
 }
+
+@media (max-width: 767px) {
+
+    .column-1 {
+        width: auto;
+    }
+    
+    .column-2, .column-3 {
+        margin-top: 50px;
+    }
+
+    .days-times {
+        justify-content: center;
+    }
+
+    .footer-title {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .footer-wrapper {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
