@@ -63,7 +63,7 @@
 
 .meet-practicioners h1 {
     color: white;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .practicioner-container {
@@ -81,7 +81,7 @@
 }
 
 .practicioner-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .practicioner-wrapper {
@@ -96,7 +96,7 @@
 }
 
 .resume-column h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 10px;
 }
 
@@ -110,6 +110,5 @@
 
 .resume-wrapper {
     display: flex;
-    /* justify-content: center; */
     margin: 40px 0;
 }

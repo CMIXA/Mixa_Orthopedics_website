@@ -44,7 +44,7 @@
 }
 
 .copyright p {
-    font-size: 12px;
+    font-size: 0.875rem;
 }
 
 .days-times {
@@ -68,7 +68,7 @@
     border-color: transparent;
     border-style: solid;
     border-radius: 35px;
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 20px;
     padding: 10px 20px;
 }
@@ -88,7 +88,7 @@
 .footer-title {
     align-items: center;
     display: flex;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 15px;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .footer-wrapper h2 {
-    font-size: 20px;
+    font-size: 1.125rem;
     margin-bottom: 10px;
 }
 
@@ -111,6 +111,6 @@
 }
 
 .number p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: italic;
 }

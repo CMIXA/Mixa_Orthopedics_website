@@ -19,7 +19,7 @@
 }
 
 .carousel-content h2 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 400;
     margin: 5px 0 20px 0;
 }
@@ -29,13 +29,8 @@
     border-color: transparent;
     border-radius: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
 }
-
-/* .carousel-content button:hover {
-    background-color: aliceblue;
-    color: rgb(14, 14, 72);
-} */
 
 .home-wrapper{
     margin: 0 auto;
@@ -108,7 +103,7 @@
     border-color: rgb(33, 91, 163);
     border-radius: 10px;
     border-width: 5px;
-    font-size: 18px;
+    font-size: 1.125rem;
     height: 190px;
     padding: 20px;
     margin: 20px;
@@ -130,7 +125,7 @@
 }
 
 .questions-container-title h1 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .questions-wrapper {

@@ -10,7 +10,7 @@ button {
   border-color: transparent;
   border-radius: 20px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 11px 37px;
   transition: background-color 0.3s;
 }
@@ -46,20 +46,21 @@ button {
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 p {
+  font-size: 1rem;
   line-height: 22px;
 }
 
 #logo-title {
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 main {
@@ -128,7 +129,7 @@ nav {
 }
 
 .navbar-title {
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 0.7px;
 }
 
@@ -155,7 +156,7 @@ nav {
 }
 
 .ourservices-arrow {
-  font-size: 9px;
+  font-size: 0.75rem;
   font-weight: 900;
 }
 

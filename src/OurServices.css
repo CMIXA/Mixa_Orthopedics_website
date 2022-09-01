@@ -8,7 +8,7 @@
 }
 
 .hospital-affiliations-content h1 {
-    font-size: 28px;
+    font-size: 1.75rem;
     margin-bottom: 20px;
 }
 
@@ -45,11 +45,11 @@
 }
 
 .emergency-room-content p {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .hospital-affiliations-content p {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .specialties-list li {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .list-1, .list-2{
@@ -128,6 +128,6 @@
 }
 
 .surgery-questions-content p {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
