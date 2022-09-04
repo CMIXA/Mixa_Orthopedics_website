@@ -205,6 +205,7 @@ nav {
 
   .menu-icon img {
     display: block;
+    cursor: pointer;
     width: 35px;
   }
 

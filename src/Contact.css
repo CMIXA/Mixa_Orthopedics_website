@@ -1,12 +1,14 @@
 
 .appointment-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 60px 0;
 }
 
 .appointment-content {
-    width: 400px;
+    width: 40%;
 }
 
 .appointment-content h2 {
@@ -17,8 +19,12 @@
     margin: 20px 0;
 }
 
+.appointment-image {
+    width: 50%;
+}
+
 .appointment-image img {
-    width: 600px;
+    width: 100%;
 }
 
 .contact-content-container {
@@ -46,6 +52,12 @@
     width: 90%;
 }
 
+.googlemaps {
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
 .information-block {
     margin-bottom: 25px;
 }
@@ -58,6 +70,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    width: 100%;
+}
+
+.information-image {
+    width: 50%;
 }
 
 .information-text {
@@ -68,5 +85,43 @@
     background-color: rgb(0, 0, 0);
     border: transparent;
     height: 3px;
-    width: 400px;
+    width: 30%;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    .appointment-container {
+        display: block;
+        margin: 40px 0;
+    }
+
+    .appointment-content {
+        width: 100%;
+    }
+
+    .appointment-image {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .information-container {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .information-image {
+        height: 400px;
+        width: 100%;
+    }
+
+    .information-text {
+        margin-bottom: 40px;
+    }
+
+    .line {
+        width: 100%;
+    }
 }
