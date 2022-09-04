@@ -42,6 +42,7 @@
 .patientforms-text-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
     width: 450px;
 }
 
@@ -53,3 +54,18 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 1024px) {
+
+    .patientforms-content-container {
+        margin: 40px;
+    }
+
+    .patientforms-text-container {
+        width: 80%;
+    }
+}
+
+/* @media (max-width: 767px) {
+
+} */

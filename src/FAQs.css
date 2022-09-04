@@ -21,7 +21,6 @@
     border-radius: 8px;
     display: flex;
     margin-bottom: 15px;
-    min-width: 300px;
     width: 750px;
 }
 
@@ -52,10 +51,24 @@
 
 #faqs-title {
     background-image: url(components/images/FAQs.png);
+    text-align: center;
+}
+
+#faqs-title h1 {
+    margin: 0 40px;
 }
 
 .faqs-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    
+    .faq-box {
+        width: 100%;
+    }
 }
