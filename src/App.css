@@ -1,8 +1,10 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: montserrat;
   font-size: 16px;
 }
 
@@ -143,7 +145,7 @@ nav {
   color: white;
   display: flex;
   text-decoration: none;
-  width: 300px;
+  width: 340px;
 }
 
 .navbar-wrapper {
