@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mixa_Orthopedics_website/static/css/main.db16b764.css",
+    "main.css": "/Mixa_Orthopedics_website/static/css/main.c2f650cd.css",
     "main.js": "/Mixa_Orthopedics_website/static/js/main.2e8938c2.js",
     "static/media/about.png": "/Mixa_Orthopedics_website/static/media/about.87bd958ee639fced5b99.png",
     "static/media/patientforms.png": "/Mixa_Orthopedics_website/static/media/patientforms.bd345f9e3a8b6d6af8f2.png",
@@ -24,11 +24,11 @@
     "static/media/mrsmixa.webp": "/Mixa_Orthopedics_website/static/media/mrsmixa.327c588ce308a8fedd32.webp",
     "static/media/drmixa.webp": "/Mixa_Orthopedics_website/static/media/drmixa.8280b13b366b50d53c06.webp",
     "index.html": "/Mixa_Orthopedics_website/index.html",
-    "main.db16b764.css.map": "/Mixa_Orthopedics_website/static/css/main.db16b764.css.map",
+    "main.c2f650cd.css.map": "/Mixa_Orthopedics_website/static/css/main.c2f650cd.css.map",
     "main.2e8938c2.js.map": "/Mixa_Orthopedics_website/static/js/main.2e8938c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.db16b764.css",
+    "static/css/main.c2f650cd.css",
     "static/js/main.2e8938c2.js"
   ]
 }
