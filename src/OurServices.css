@@ -13,21 +13,21 @@
 }
 
 .hospital-affiliations-images {
-    display: grid;
-    grid-template-columns: 275px 275px;
-    grid-row: auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    width: 50%;
 }
 
 .hospital-affiliations-images img {
-    height: 200px;
-    width: 275px;
+    margin: 5px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
 }
 
 .hospital-affiliations-wrapper {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 }
 
@@ -131,11 +131,23 @@
     font-size: 1.125rem;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) {
 
+    .hospital-affiliations-content {
+        margin: 0 0 30px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hospital-affiliations-wrapper {
+        flex-direction: column;
+    }
+
+    .hospital-affiliations-images {
+        width: 95%;
+    }
+
+    .list-1,.list-2 {
+        margin: 0;
+    }
 }
-
-@media (max-width: 767px) {
-
-}
-

@@ -55,11 +55,21 @@ const OurServices = () => {
                                 <p>HCA Florida St. Petersburg Hospital</p>
                                 <p>Skyway Surgery Center</p>
                             </div>
-                            <div className='hospital-affiliations-images'>
+                            {/* <div className='hospital-affiliations-images'>
                                 <img src={palmsH} alt="palms"></img>
                                 <img src={anthonysH} alt="st.anthonys"></img>
                                 <img src={northsideH} alt="northside"></img>
                                 <img src={generalH} alt="stpetegeneral"></img>
+                            </div> */}
+                            <div className='hospital-affiliations-images'>
+                                <div className='row'>
+                                    <img src={palmsH} alt="palms"></img>
+                                    <img src={anthonysH} alt="st.anthonys"></img>
+                                </div>
+                                <div className='row'>
+                                    <img src={northsideH} alt="northside"></img>
+                                    <img src={generalH} alt="stpetegeneral"></img>
+                                </div>
                             </div>
                         </div>
                     </div>

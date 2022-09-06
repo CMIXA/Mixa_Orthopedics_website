@@ -49,10 +49,12 @@
     margin-bottom: 15px;
 }
 
+.office-building {
+    width: 50%;
+}
+
 .office-building img {
-    height: auto;
-    width: 475px;
-    min-width: 300px;
+    width: 100%;
 }
 
 .our-practice-container {
@@ -80,9 +82,12 @@
     margin: 60px 0;
 }
 
+.our-specialties-image {
+    width: 50%;
+}
+
 .our-specialties-image img {
-    height: 375px;
-    width: 500px;
+    width: 100%;
 }
 
 .our-specialties-text h2 {
@@ -168,9 +173,14 @@
         width: 95%;
     }
 
+    .our-specialties-image, .office-building {
+        width: 75%;
+    }
+
 }
 
 @media (max-width: 768px) {
+
     .questions {
         flex-direction: column;
     }
