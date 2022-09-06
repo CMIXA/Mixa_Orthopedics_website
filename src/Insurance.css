@@ -50,3 +50,11 @@
     margin: 20px;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+
+    .insurance-list-container {
+        flex-direction: column;
+    }
+    
+}

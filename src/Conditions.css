@@ -35,3 +35,11 @@
     max-width: 1150px;
     width: 90%;
 }
+
+@media (max-width: 767px) {
+
+    .conditions-list-container {
+        flex-direction: column;
+    }
+
+}

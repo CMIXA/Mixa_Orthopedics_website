@@ -131,3 +131,11 @@
     font-size: 1.125rem;
 }
 
+@media (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
