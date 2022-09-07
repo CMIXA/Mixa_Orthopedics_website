@@ -11,12 +11,16 @@
     margin: 80px 0 100px 0;
 }
 
+.about-intro-picture {
+    width: 50%;
+}
+
 .about-intro-picture img{
-    width: 500px;
+    width: 100%;
 }
 
 .about-intro-text {
-    max-width: 500px;
+    width: 40%;
 }
 
 .about-intro-text h2 {
@@ -26,7 +30,7 @@
 .about-intro-wrapper {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
 }
 
@@ -72,7 +76,7 @@
 
 .practicioner-text {
     margin: 0 100px;
-    width: 400px;
+    width: 80%;
 }
 
 .practicioner-text h2 {
@@ -92,7 +96,7 @@
 }
 
 .resume-column {
-    width: 350px;
+    width: 80%;
 }
 
 .resume-column h3 {
@@ -105,10 +109,66 @@
 }
 
 .resume-column-container {
-    width: 600px;
+    width: 100%;
 }
 
 .resume-wrapper {
     display: flex;
+    justify-content: space-between;
     margin: 40px 0;
+}
+
+@media (max-width: 1024px) {
+
+    .about-intro-container {
+        margin: 30px 0 60px 0;
+    }
+
+    .about-intro-picture {
+        padding-bottom: 30px;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .about-intro-text {
+        width: 100%;
+    }
+
+    .practicioner-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .practicioner-image img {
+        width: 50%;
+    }
+
+    .practicioner-text {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .practicioner-wrapper {
+        display: block;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-intro-picture {
+        width: 100%;
+    }
+
+    .resume-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .practicioner-image {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .practicioner-image img {
+        width: 70%;
+    }
 }

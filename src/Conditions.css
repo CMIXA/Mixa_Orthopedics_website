@@ -30,6 +30,15 @@
     background-image: url(components/images/conditions.png);
 }
 
+#conditions-title {
+    background-image: url(components/images/FAQs.png);
+    text-align: center;
+}
+
+#conditions-title h1 {
+    margin: 0 40px;
+}
+
 .conditions-wrappper {
     margin: 0 auto;
     max-width: 1150px;
@@ -39,6 +48,7 @@
 @media (max-width: 767px) {
 
     .conditions-list-container {
+        align-items: center;
         flex-direction: column;
     }
 

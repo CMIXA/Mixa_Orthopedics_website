@@ -31,7 +31,7 @@ const About = () => {
                 <div className='practicioner-container'>
                     <div className='about-wrapper-2'>
                         <div className='practicioner-wrapper'>
-                            <div>
+                            <div className='practicioner-image'>
                                 <img src={drmixa} alt='drmixa'></img>
                             </div>
                             <div>
@@ -62,7 +62,7 @@ const About = () => {
                                     <p>The Institute for Bone and Joint Disease, Phoenix, AZ graduated 1992Total Joint Fellowship</p>
                                 </div>
                             </div>
-                            <div>
+                            <div className='resume-column-container'>
                                 <div className='resume-column'>
                                     <h3>Hospital Positions</h3>
                                     <p>Multiple Committee Positions, over 20+ yearsInfectious Disease, Utilization Review, Surgical Boards</p>
@@ -89,7 +89,7 @@ const About = () => {
                 <div className='practicioner-container'>
                     <div className='about-wrapper-2'>
                         <div className='practicioner-wrapper'>
-                            <div>
+                            <div className='practicioner-image'>
                                 <img src={mrsmixa} alt='mrsmixa'></img>
                             </div>
                             <div>
