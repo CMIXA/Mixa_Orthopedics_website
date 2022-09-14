@@ -19,9 +19,9 @@ import Home from "./components/Home";
 import Insurance from "./components/Insurance";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
-import {Switch} from 'react-router';
-// import bones from "./images/bones.png"; 
-
+import bones1 from "./components/images/bones(1).png";
+import menu from "./components/images/hamburger.png";
+import Navbar from './components/Nav/Navbar';
 
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
           <div className="navbar-wrapper">
             <Link className="navbar-title-wrapper" to="/">
               <div className='navbar-title-image'>
-                <img src="bones.png" alt="bones"></img>
+                <img src={bones1} alt="bones"></img>
               </div>
               <div className='navbar-title'>
                   <h1 id="logo-title">Mixa Orthopedics</h1>
@@ -63,10 +63,11 @@ function App() {
               </div>
             </div>
             <div className="menu-icon">
-              <img src="more.png" alt="menu"></img>
+              <img src={menu} alt="menu"></img>
             </div>
           </div>
         </nav>
+        <Navbar />
       </>
       <Routes>
         <Route path="/" element={<Home />} />

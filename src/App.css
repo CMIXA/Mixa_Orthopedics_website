@@ -22,18 +22,14 @@ button {
   color: white;
 }
 
-#button-1:hover {
-  background-color: rgb(149, 149, 241);
-  color: rgb(255, 255, 255);
+#button-1:hover, #button-2:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: black;
+  color: rgb(0, 0, 0);
 }
 
 #button-2 {
   background-color: black;
-  color: rgb(255, 255, 255);
-}
-
-#button-2:hover {
-  background-color: rgb(145, 145, 145);
   color: rgb(255, 255, 255);
 }
 
@@ -43,7 +39,7 @@ button {
 }
 
 #button-3:hover {
-  background-color: rgb(61, 61, 201);
+  background-color: rgb(81, 165, 255);
   color: white;
 }
 
@@ -81,8 +77,6 @@ nav {
   display: flex;
   height: 100px;
   justify-content: center;
-  /* position: fixed;
-  width: 100%; */
 }
 
 .nav-link {
