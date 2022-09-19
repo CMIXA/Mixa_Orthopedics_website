@@ -5,7 +5,7 @@ import xray from "./images/xray.jpeg"
 
 const Home = () => {
     return (
-        <main>
+        <main className='home'>
             <div className='carousel-container'>
                 <div className='carousel-content'>
                     <h1>For all your orthopedic needs</h1>

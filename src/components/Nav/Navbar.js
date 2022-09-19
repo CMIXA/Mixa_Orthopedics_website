@@ -21,6 +21,9 @@ const Navbar = () => {
             {/* <div className='navbar-title-image'>
               <img src={bones1} alt="bones"></img>
             </div> */}
+            <div className='logo'>
+              <img src='bones.png'></img>
+            </div>
             <div className='navbar-title'>
                 <h1 id="logo-title">Mixa Orthopedics</h1>
             </div>
