@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mixa_Orthopedics_website/static/css/main.3cc71bc8.css",
-    "main.js": "/Mixa_Orthopedics_website/static/js/main.721572dc.js",
+    "main.css": "/Mixa_Orthopedics_website/static/css/main.f9d8591a.css",
+    "main.js": "/Mixa_Orthopedics_website/static/js/main.2fb804f9.js",
     "static/media/about.png": "/Mixa_Orthopedics_website/static/media/about.87bd958ee639fced5b99.png",
     "static/media/patientforms.png": "/Mixa_Orthopedics_website/static/media/patientforms.bd345f9e3a8b6d6af8f2.png",
     "static/media/FAQs.png": "/Mixa_Orthopedics_website/static/media/FAQs.9d2d001e5a66b8f370e9.png",
@@ -17,7 +17,6 @@
     "static/media/generalH.jpeg": "/Mixa_Orthopedics_website/static/media/generalH.e03b7b34343783df0bda.jpeg",
     "static/media/introslide1.1.webp": "/Mixa_Orthopedics_website/static/media/introslide1.1.ce413f970c0c6beaff3e.webp",
     "static/media/anthonysH.jpeg": "/Mixa_Orthopedics_website/static/media/anthonysH.5a533d67f6baa682a5bd.jpeg",
-    "static/media/bones(1).png": "/Mixa_Orthopedics_website/static/media/bones(1).ffa29b033158129a2ba5.png",
     "static/media/xray.jpeg": "/Mixa_Orthopedics_website/static/media/xray.430a5e505408d5a4733f.jpeg",
     "static/media/ambulance.png": "/Mixa_Orthopedics_website/static/media/ambulance.1953e2451d7a9c937f13.png",
     "static/media/question.png": "/Mixa_Orthopedics_website/static/media/question.a97e45146636971d8892.png",
@@ -25,11 +24,11 @@
     "static/media/mrsmixa.webp": "/Mixa_Orthopedics_website/static/media/mrsmixa.327c588ce308a8fedd32.webp",
     "static/media/drmixa.webp": "/Mixa_Orthopedics_website/static/media/drmixa.8280b13b366b50d53c06.webp",
     "index.html": "/Mixa_Orthopedics_website/index.html",
-    "main.3cc71bc8.css.map": "/Mixa_Orthopedics_website/static/css/main.3cc71bc8.css.map",
-    "main.721572dc.js.map": "/Mixa_Orthopedics_website/static/js/main.721572dc.js.map"
+    "main.f9d8591a.css.map": "/Mixa_Orthopedics_website/static/css/main.f9d8591a.css.map",
+    "main.2fb804f9.js.map": "/Mixa_Orthopedics_website/static/js/main.2fb804f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc71bc8.css",
-    "static/js/main.721572dc.js"
+    "static/css/main.f9d8591a.css",
+    "static/js/main.2fb804f9.js"
   ]
 }
