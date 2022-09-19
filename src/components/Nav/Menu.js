@@ -6,8 +6,8 @@ const StyledMenu = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 15px;
-  right: 20px;
+  top: 30px;
+  right: 50px;
   z-index: 20;
   display: none;
 
@@ -20,7 +20,7 @@ const StyledMenu = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => open ? '#ccc' : '#333'};
+    background-color: ${({ open }) => open ? '#ccc' : '#999'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

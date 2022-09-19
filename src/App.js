@@ -19,7 +19,6 @@ import Home from "./components/Home";
 import Insurance from "./components/Insurance";
 import OurServices from "./components/OurServices";
 import PatientForms from "./components/PatientForms";
-import bones1 from "./components/images/bones(1).png";
 import menu from "./components/images/hamburger.png";
 import Navbar from './components/Nav/Navbar';
 
@@ -28,45 +27,6 @@ function App() {
   return (
     <div className="App">
       <>
-        <nav>
-          <div className="navbar-wrapper">
-            <Link className="navbar-title-wrapper" to="/">
-              <div className='navbar-title-image'>
-                <img src={bones1} alt="bones"></img>
-              </div>
-              <div className='navbar-title'>
-                  <h1 id="logo-title">Mixa Orthopedics</h1>
-              </div>
-            </Link>
-            <div className="navbar-items">
-              <div className="navbar-item">
-                <Link className="nav-link" to="/">Home</Link>
-              </div>
-              <div className="navbar-item dropdown" id="dropdown">
-                <Link className="nav-link" to="/ourservices">Our Services <span className="ourservices-arrow">v</span></Link>
-                <div className="navbar-items-extra">
-                  <Link className="nav-link-extra" id="hover" to="/insurance">Insurance</Link>
-                  <Link className="nav-link-extra" id="hover" to="/conditions">Conditions</Link>
-                </div>
-              </div>
-              <div className="navbar-item">
-                <Link className="nav-link" to="/about">About Us</Link>
-              </div>
-              <div className="navbar-item">
-                <Link className="nav-link" to="/patientforms">Patient Forms</Link>
-              </div>
-              <div className="navbar-item">
-                <Link className="nav-link" to="/faqs">FAQs</Link>
-              </div>
-              <div className="navbar-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </div>
-            </div>
-            <div className="menu-icon">
-              <img src={menu} alt="menu"></img>
-            </div>
-          </div>
-        </nav>
         <Navbar />
       </>
       <Routes>

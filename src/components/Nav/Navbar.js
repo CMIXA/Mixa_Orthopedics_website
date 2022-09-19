@@ -1,27 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
 import Menu from './Menu';
+import { Link } from "react-router-dom";
+// import bones1 from "./components/images/bones(1).png";
+// import bones1 from "./"
 
 const Nav = styled.nav`
-  width: 100%;
-  height: 55px;
-  border-bottom: 2px solid #f1f1f1;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
 
-  .logo {
+  ${'' /* .logo {
     padding: 15px 0;
-  }
+  } */}
 `
 
 const Navbar = () => {
   return (
     <Nav>
-      <div className="logo">
-        Nav Bar
-      </div>
-      <Menu />
+      <nav>
+        <div className="navbar-wrapper">
+          <Link className="navbar-title-wrapper" to="/">
+            {/* <div className='navbar-title-image'>
+              <img src={bones1} alt="bones"></img>
+            </div> */}
+            <div className='navbar-title'>
+                <h1 id="logo-title">Mixa Orthopedics</h1>
+            </div>
+          </Link>
+          <Menu />
+        </div>
+      </nav>
     </Nav>
   )
 }

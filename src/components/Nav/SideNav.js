@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 
 const Ul = styled.ul`
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
+  ${'' /* flex-flow: row nowrap; */}
 
-  li {
+  ${'' /* li {
     padding: 18px 10px;
-  }
+  } */}
 
   @media (max-width: 1024px) {
     flex-flow: column nowrap;
@@ -22,7 +23,7 @@ const Ul = styled.ul`
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
-    li {
+    .navbar-link {
       color: black;
     }
   }
@@ -30,12 +31,29 @@ const Ul = styled.ul`
 
 const SideNav = ({ open }) => {
   return (
-    <Ul open={open}>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
-      <li>Sign In</li>
-      <li>Sign Up</li>
+    <Ul open={open}>  
+        <div className="navbar-item">
+          <Link className="nav-link" to="/">Home</Link>
+        </div>
+        <div className="navbar-item dropdown" id="dropdown">
+          <Link className="nav-link" to="/ourservices">Our Services <span className="ourservices-arrow">v</span></Link>
+          <div className="navbar-items-extra">
+            <Link className="nav-link-extra" id="hover" to="/insurance">Insurance</Link>
+            <Link className="nav-link-extra" id="hover" to="/conditions">Conditions</Link>
+          </div>
+        </div>
+        <div className="navbar-item">
+          <Link className="nav-link" to="/about">About Us</Link>
+        </div>
+        <div className="navbar-item">
+          <Link className="nav-link" to="/patientforms">Patient Forms</Link>
+        </div>
+        <div className="navbar-item">
+          <Link className="nav-link" to="/faqs">FAQs</Link>
+        </div>
+        <div className="navbar-item">
+          <Link className="nav-link" to="/contact">Contact</Link>
+        </div>
     </Ul>
   )
 }

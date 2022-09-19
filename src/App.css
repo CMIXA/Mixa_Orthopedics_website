@@ -189,6 +189,13 @@ nav {
   /* * {
     font-size: 15px;
   } */
+  nav {
+    justify-content: start;
+  }
+
+  .nav-link {
+    color: black;
+  }
 
   .navbar-items{
     display: none;
