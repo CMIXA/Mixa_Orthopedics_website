@@ -1,0 +1,79 @@
+.a-section-1 {
+  display: flex;
+  justify-content: center;
+  margin: 240px 80px;
+}
+
+.a-section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.a-s1-divL {
+  width: auto;
+  max-width: 500px;
+}
+
+.a-s1-title {
+  margin-bottom: 24px;
+}
+
+.a-s1-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1250px;
+}
+
+.a-s2-div1 {
+  margin-bottom: 48px;
+}
+
+.a-s2-div1 h1 {
+  margin-bottom: 24px;
+}
+
+.a-s2-wrapper {
+  text-align: center;
+  width: 1250px;
+}
+
+.a-s3-div1 {
+  margin-bottom: 120px;
+}
+
+.grid-container {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 96px;
+}
+
+.a-s3-div2 div {
+  display: flex;
+  justify-content: center;
+}
+
+.a-s3-div2-t {
+  margin-bottom: 80px;
+}
+
+.a-section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.a-s3-wrapper {
+  /* display: flex;
+  justify-content: center; */
+  width: 1250px;
+}
+
+.about-img {
+  width: 500px;
+}
+
+.teamcard-container {
+  display: flex;
+  justify-content: center;
+}

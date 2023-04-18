@@ -1,0 +1,41 @@
+.checkList {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+.checkList img {
+  margin-right: 16px;
+}
+
+.checkList-container {
+  padding-bottom: 8px;
+}
+
+.RPcard-container {
+  border-radius: 20px;
+  padding: 40px;
+  height: 440px;
+  width: 372px;
+}
+
+.RPcard-container,
+.checkList,
+.RPcard-wrapper a,
+.checkList-container,
+.RPcard-wrapper h3 {
+  background: #001f44;
+}
+
+.RPcard-wrapper img,
+.RPcard-wrapper h3 {
+  margin-bottom: 16px;
+}
+
+.RPcard-wrapper a {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.RPcard-wrapper a:hover {
+  text-decoration: underline;
+}

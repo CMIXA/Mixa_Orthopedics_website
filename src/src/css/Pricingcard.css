@@ -1,0 +1,56 @@
+.PC-button button {
+  padding: 12px 24px;
+  gap: 10px;
+
+  background: #4900c1;
+  border-radius: 30px;
+  border: transparent;
+}
+
+.PC-button-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.PC-container {
+  background: #001f44;
+  border-radius: 20px;
+  height: 424px;
+  overflow: hidden;
+  width: 360px;
+}
+
+.PC-description {
+  margin-bottom: 40px;
+}
+
+.PC-price {
+  align-items: center;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.PC-price h1 {
+  margin-right: 8px;
+}
+
+.PC-title {
+  align-items: center;
+  display: flex;
+  height: 72px;
+  margin-bottom: 8px;
+}
+
+.PC-title h2 {
+  font-size: 1.5rem;
+}
+
+.PC-wrapper {
+  background: #001f44;
+  padding: 40px 56px;
+}
+
+.PC-wrapper * {
+  background: #001f44;
+}

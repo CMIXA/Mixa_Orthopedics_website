@@ -1,0 +1,42 @@
+.above-text {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.above-text * {
+  margin-bottom: 16px;
+}
+
+.contactsales-b {
+  padding: 12px 24px;
+  gap: 10px;
+
+  background: rgba(56, 254, 206, 0.44);
+  border-radius: 30px;
+  border: transparent;
+}
+
+.Pricing-container {
+  margin: 180px 80px 80px 80px;
+}
+
+/* .Pricing-wrapper {
+  margin: 80px 0;
+} */
+
+.Pricingcards-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.talk-business {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.talk-business h2 {
+  margin-bottom: 16px;
+}

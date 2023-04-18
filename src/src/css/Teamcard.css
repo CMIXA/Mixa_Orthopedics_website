@@ -1,0 +1,46 @@
+/* .RPcard-container {
+  background-color: black;
+  border-radius: 20px;
+  display: block;
+  height: 296px;
+  margin: 0 80px;
+  width: 326px;
+} */
+
+/* .RPwrapper {
+  margin: 0 80px;
+} */
+
+.grid-item {
+  background-color: transparent;
+  background: linear-gradient(180deg, #001f44 0%, rgba(0, 31, 68, 0.16) 100%);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 326px;
+  width: 296px;
+}
+
+.grid-item .text {
+  margin-bottom: 16px;
+}
+
+.grid-item p {
+  color: #a6a6a6;
+}
+
+.RPcard-wrapper,
+div.text,
+.social-links,
+img {
+  background-color: transparent;
+}
+
+.social-links img {
+  margin: 0 4px;
+}
+
+p,
+h2 {
+  background-color: transparent;
+}

@@ -1,0 +1,13 @@
+.circles {
+  background-color: #4900c1;
+  border-radius: 100px;
+  height: 8px;
+  margin: 0 8px;
+  width: 8px;
+}
+
+.Separator-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}

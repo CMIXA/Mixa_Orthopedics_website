@@ -1,0 +1,137 @@
+.h-section-1 {
+  display: flex;
+  justify-content: center;
+  margin: 240px 80px 80px 80px;
+  /* padding: 160px 80px 80px 80px; */
+}
+
+.h-section-2,
+.h-section-3,
+.h-section-4,
+.h-section-5 {
+  padding: 120px;
+}
+
+.h-section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.h-s1-wrapper .div1 {
+  width: auto;
+  max-width: 500px;
+}
+
+.h-s1-wrapper .div1 h1 {
+  margin-bottom: 16px;
+}
+
+.h-s1-wrapper .div1 p {
+  margin-bottom: 32px;
+}
+
+.h-s1-wrapper .div2 {
+  position: relative;
+}
+
+.h-s1-wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  width: 1250px;
+}
+
+.h-s2-card-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h-s2-title {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.h-s2-wrapper {
+  /* background-color: black; */
+  margin: 0 auto;
+  text-align: left;
+  width: 1250px;
+}
+
+.h-s3-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1250px;
+}
+
+.h-s3-wrapper .div1,
+.h-s3-wrapper .div2 {
+  max-width: 500px;
+}
+
+.h-s3-wrapper .div2 h1 {
+  margin-bottom: 16px;
+}
+
+.h-s3-wrapper .div2 p {
+  margin-bottom: 32px;
+}
+
+/* .h-s2-wrapper,
+.h-s2-wrapper .h-s2-title h1,
+.h-s2-wrapper .h-s2-card-container {
+  background-color: black;
+} */
+
+.h-section-4 {
+  /* background-color: black; */
+  padding: 60px;
+}
+
+.h-s4-title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.h-s4-title h2 {
+  margin-right: 16px;
+}
+
+.h-s4-wrapper {
+  /* background-color: black; */
+  margin: 0 auto;
+  text-align: center;
+  width: 1250px;
+}
+
+.h-s5-wrapper {
+  /* background-color: black; */
+  margin: 0 auto;
+  text-align: left;
+  width: 1250px;
+}
+
+.h-s5-wrapper .div1 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.h-s5-wrapper .div1 h2 {
+  margin-right: 8px;
+}
+
+.image1 {
+  position: relative;
+  z-index: 5; /* Decrease the z-index value */
+}
+
+.responsive {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
